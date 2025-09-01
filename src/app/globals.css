@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
-body,html{
-    overflow-x: hidden;
-    position: relative;
+body,
+html {
+  overflow-x: hidden;
+  position: relative;
+  font-family: "Windsurf", ui-sans-serif, system-ui;
 }
 
 @keyframes moveStroke {
@@ -18,4 +20,12 @@ path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: moveStroke 3s linear infinite;
+}
+
+@font-face {
+  font-family: "Windsurf";
+  src: url("/fonts/windsurf.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }

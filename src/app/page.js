@@ -20,15 +20,15 @@ const Page = () => {
         <ImageHighlightSlider sectionData={sectionData} />
       </FadeInWhenVisible>
       <VisionSection />
-      <FadeInWhenVisible type="slide-right" delay={0.2}>
+      {/* <FadeInWhenVisible type="slide-right" delay={0.2}>
         <FeatureCards />
-      </FadeInWhenVisible>
+      </FadeInWhenVisible> */}
       <FadeInWhenVisible>
         <ImageHighlightSlider sectionData={partnerData} />
       </FadeInWhenVisible>
-      <FadeInWhenVisible type="slide-left" delay={0.3}>
+      {/* <FadeInWhenVisible type="slide-left" delay={0.3}>
         <WindsurfStatsLayout />
-      </FadeInWhenVisible>
+      </FadeInWhenVisible> */}
       <Footer />
     </>
   );
