@@ -74,7 +74,9 @@ export default function Navbar() {
           {/* <Link href="/" className="flex items-center">
             <img src="images/UNIGST.png" alt="Techspeed Logo" className="w-[100px] h-auto" />
           </Link> */}
+          <Link href="/">
           <div className="text-xl font-bold">WORKFORCE</div>
+          </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-10 text-sm font-medium text-gray-900 relative">

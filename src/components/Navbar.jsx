@@ -19,7 +19,7 @@ export default function WindsurfNav() {
             desc: "EPFdesk makes PF easy for you.",
             href: "https://epfdesk.com",
           },
-          // { label: "Plugins", desc: "AI in your IDE of choice" },
+          { label: "Workforce-GST", href: "/gst" },
           // { label: "Reviews", desc: "Code reviews with AI" },
         ],
         // "CORE FEATURES": [
