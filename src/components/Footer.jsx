@@ -88,7 +88,7 @@ export default function Footer() {
         <div className="lg:flex lg:justify-between lg:items-start mb-12">
           <div className="space-y-4 max-w-sm mb-10 lg:mb-0">
            <h1 className="text-xl font-bold">WORKFORCE</h1>
-            <p className="text-sm text-white/60">Built to keep you in flow state.</p>
+            <p className="text-sm text-white/60">Building the Compliance Brain of the Nation</p>
             <div className="flex flex-wrap gap-4">
               {socialLinks.map(({ icon: Icon, href, label }, i) => (
                 <a key={i} href={href} target="_blank" rel="noopener noreferrer" aria-label={label}>
