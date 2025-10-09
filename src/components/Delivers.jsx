@@ -4,26 +4,26 @@ const Delivers = () => {
   return (
     <section className="bg-[#43045e] py-20 md:py-40">
       <div className="mx-auto max-w-7xl px-5">
-        <h4 className="text-[28px] sm:text-[48px] mb-16 text-white">What Does Unburdened Growth Feel Like?</h4>
+        <h4 className="text-[28px] sm:text-[48px] mb-16 text-white">Turning Regulation into Intelligence—and Intelligence into Scale</h4>
         {/* Desktop Grid */}
-        <div className="hidden grid-cols-2 gap-4 md:grid lg:grid-cols-3 lg:gap-8">
+        <div className="grid-cols-1 gap-4 sm:gap-4 grid lg:grid-cols-3 lg:gap-8">
           {[
             {
               num: "01",
-              title: "Strategic Confidence",
-              desc: "Go into due diligence or investor meetings with total confidence. We deliver an airtight, audit-ready compliance posture.",
+              title: "From Red Tape to Source Code.",
+              desc: "Each filing becomes data. Timelines, rejections, inspection notes, and fees feed the Regulatory Intelligence Graph—making every future execution faster and safer.",
               img: "images/gradient_0_desktop.svg",
             },
             {
               num: "02",
-              title: "Operational Freedom",
-              desc: "Make key decisions—from caling to market entry—without the friction of legal uncertainty.",
+              title: "Nation-Scale on Day One.",
+              desc: "36 State/UT badges + 30 Industry badges.",
               img: "images/gradient_1_desktop.svg",
             },
             {
               num: "03",
-              title: "Reputational Integrity",
-              desc: "Build your brand on a foundation of trust. We ensure your business is not just compliant, but a model of ethical and transparent operations.",
+              title: "What changes when compliance becomes infrastructure.",
+              desc: `◾ 0 missed renewals (auto-execute)\n◾ 30–60% faster approvals (sequenced filings)\n◾ 1 pane of glass (all departments, all entities)`,
               img: "images/gradient_2_desktop.svg",
             },
             // {
@@ -47,17 +47,17 @@ const Delivers = () => {
           ].map((item, i) => (
             <div
               key={i}
-              className="relative flex h-full min-h-[300px] flex-col overflow-hidden rounded-md bg-[#f9f3e9] md:min-h-[390px]"
+              className="relative flex h-full flex-col overflow-hidden rounded-md bg-[#f9f3e9] md:min-h-[390px]"
             >
               <div className="flex flex-1 flex-col justify-between gap-10 px-8 pb-[67px] pt-10">
                 <div className="flex flex-col">
-                  <p className="mb-20 hidden font-dmMono text-[64px] font-light text-[#cba2fa] md:block">
+                  <p className="mb-10 md:mb-20 font-dmMono text-[64px] font-light text-[#cba2fa] md:block">
                     {item.num}
                   </p>
                   <p className="text-[24px] sm:text-[32px] mb-6 text-[#43045e] md:!text-[32px]">
                     {item.title}
                   </p>
-                  <p className="text-[16px] text-[#43045e]">{item.desc}</p>
+                  <p className="whitespace-pre-line text-[16px] text-[#43045e]">{item.desc}</p>
                 </div>
               </div>
               <img

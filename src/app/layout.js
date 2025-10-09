@@ -1,4 +1,6 @@
+import WindsurfNav from "@/components/Navbar";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Workforce | Empowering India's Workforce",
@@ -8,7 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>{children}</body>
+      <body className={`antialiased`}>
+        <WindsurfNav />
+        {children}
+        <Footer />
+      <div id="modal-root"></div>
+      </body>
     </html>
   );
 }

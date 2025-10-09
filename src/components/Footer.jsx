@@ -6,68 +6,65 @@ import {
 
 export default function Footer() {
   const socialLinks = [
-    { icon: FaEnvelope, href: "mailto:hello@windsurf.com", label: "Mail" },
-    { icon: FaInstagram, href: "https://www.instagram.com/windsurf_ai/", label: "Instagram" },
-    { icon: FaTiktok, href: "https://www.tiktok.com/@windsurf", label: "TikTok" },
-    { icon: FaTwitter, href: "https://x.com/windsurf_ai", label: "Twitter" },
-    { icon: FaDiscord, href: "https://discord.gg/GjCYNGChrw", label: "Discord" },
-    { icon: FaLinkedin, href: "https://www.linkedin.com/company/windsurf/", label: "LinkedIn" },
-    { icon: FaReddit, href: "https://reddit.com/r/windsurf", label: "Reddit" },
-    { icon: FaYoutube, href: "https://www.youtube.com/@windsurf_ai", label: "YouTube" },
+    { icon: FaEnvelope, href: "", label: "Mail" },
+    { icon: FaInstagram, href: "", label: "Instagram" },
+    { icon: FaTiktok, href: "", label: "TikTok" },
+    { icon: FaTwitter, href: "", label: "Twitter" },
+    { icon: FaDiscord, href: "", label: "Discord" },
+    { icon: FaLinkedin, href: "", label: "LinkedIn" },
+    { icon: FaReddit, href: "", label: "Reddit" },
+    { icon: FaYoutube, href: "", label: "YouTube" },
   ];
 
   const footerColumns = [
     {
       heading: "Product",
       links: [
-        { label: "Editor", href: "/editor" },
-        { label: "Plugins", href: "/plugins" },
-        { label: "Windsurf Reviews", href: "/reviews" },
-        { label: "Pricing", href: "/pricing" },
-        { label: "Windsurf for Enterprise", href: "/enterprise" },
+        { label: "EPFdesk", href: "https://www.epfdesk.com/" },
+
       ],
     },
-    {
-      heading: "Capabilities",
-      links: [
-        { label: "Cascade", href: "/cascade" },
-        { label: "Tab", href: "/tab" },
-        { label: "JetBrains Plugin", href: "/plugins/jetbrains" },
-      ],
-    },
+    // {
+    //   heading: "Capabilities",
+    //   links: [
+    //     { label: "Cascade", href: "/cascade" },
+    //     { label: "Tab", href: "/tab" },
+    //     { label: "JetBrains Plugin", href: "/plugins/jetbrains" },
+    //   ],
+    // },
     {
       heading: "Company",
       links: [
-        { label: "About Us", href: "/about" },
-        { label: "Blog", href: "/blog" },
-        { label: "Careers", href: "/careers" },
-        { label: "Contact", href: "/contact" },
-        { label: "Partnerships", href: "/partnerships" },
-        { label: "Terms of Service", href: "/terms" },
-        { label: "Privacy Policy", href: "/privacy" },
+        { label: "About Us", href: "/aboutUs" },
+        { label: "Jobs", href: "/jobs" },
+        // { label: "Careers", href: "/careers" },
+        // { label: "Contact", href: "/contact" },
+        // { label: "Partnerships", href: "/partnerships" },
+        // { label: "Terms of Service", href: "/terms" },
+        // { label: "Privacy Policy", href: "/privacy" },
       ],
     },
-    {
-      heading: "Resources",
-      links: [
-        { label: "Docs", href: "/docs" },
-        { label: "Changelog", href: "/changelog" },
-        { label: "Releases", href: "/releases" },
-        { label: "Support", href: "/support" },
-        { label: "Feature Requests", href: "/features" },
-        { label: "University", href: "/university" },
-      ],
-    },
-    {
-      heading: "Connect",
-      links: [
-        { label: "Contact", href: "/contact" },
-        { label: "Events", href: "/events" },
-        { label: "Hackathons", href: "/hackathons" },
-        { label: "Community", href: "/community" },
-        { label: "Students", href: "/students" },
-      ],
-    },
+    // {
+    //   heading: "Resources",
+    //   links: [
+    //     { label: "Docs", href: "/docs" },
+    //     { label: "Changelog", href: "/changelog" },
+    //     { label: "Releases", href: "/releases" },
+    //     { label: "Support", href: "/support" },
+    //     { label: "Feature Requests", href: "/features" },
+    //     { label: "University", href: "/university" },
+    //   ],
+    // },
+    // {
+    //   heading: "Connect",
+    //   links: [
+    //     { label: "Contact", href: "/contact" },
+    //     { label: "Events", href: "/events" },
+    //     { label: "Hackathons", href: "/hackathons" },
+    //     { label: "Community", href: "/community" },
+    //     { label: "Students", href: "/students" },
+    //   ],
+    // },
   ];
 
   return (
@@ -90,11 +87,7 @@ export default function Footer() {
         {/* Logo + Social */}
         <div className="lg:flex lg:justify-between lg:items-start mb-12">
           <div className="space-y-4 max-w-sm mb-10 lg:mb-0">
-            <img
-              src="/logo/windsurf-white-wordmark.svg"
-              alt="Workforce Logo"
-              className="h-4"
-            />
+           <h1 className="text-xl font-bold">WORKFORCE</h1>
             <p className="text-sm text-white/60">Built to keep you in flow state.</p>
             <div className="flex flex-wrap gap-4">
               {socialLinks.map(({ icon: Icon, href, label }, i) => (
@@ -126,8 +119,8 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-white/20 pt-6 flex flex-col sm:flex-row items-center justify-between text-sm text-white/60">
-          <p>© 2025 Exafunction, Inc. All rights reserved.</p>
-          <p>Windsurf Inc.</p>
+          <p>© 2025, Workforce Ltd. All rights reserved.</p>
+          <p>Workforce Ltd.</p>
         </div>
       </div>
     </footer>

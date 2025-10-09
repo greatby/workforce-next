@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useEffect, useRef, useState } from "react";
 
 export default function Hero() {
@@ -84,12 +84,11 @@ export default function Hero() {
       <div className="relative z-20 mx-auto md:mt-0 flex h-full w-full max-w-7xl flex-col items-start justify-center px-5">
         <div className="flex w-full flex-col gap-10 md:gap-16 md:max-w-5xl">
           <h1 className="text-4xl md:text-6xl font-light leading-tight tracking-tight">
-            Empowering India's Workforce: <br /> From People to Pioneering AI
-            Agents
+            Regulation, Executed.
           </h1>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white max-w-3xl">
-            We're not just shaping HR; we're architecting the future of work
-            with cutting-edge software and intelligent AI.
+            The regulatory engine that keeps companies compliant by design—every
+            Act, every Department, every Industry.
           </p>
 
           <div className="flex flex-col md:flex-row gap-4">
@@ -108,16 +107,16 @@ export default function Hero() {
                   d="M9 5l7 7-7 7"
                 />
               </svg>
-              Discover the Future of HR
+              See How It Works
             </button>
           </div>
 
-          {/* <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4">
             <div className="h-[6px] w-[6px] bg-[#00f5d4]" />
             <p className="text-sm md:text-base text-white/80">
-              The new purpose-built IDE to harness magic
+              10,000+ compliances executed · 30+ industries · 36 states & UTs
             </p>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

@@ -21,32 +21,33 @@ const EnterpriseChoose = () => {
       >
         <div className="flex h-fit w-fit flex-col">
           <h4 className="text-[28px] sm:text-[48px] mb-16">
-            We Built the Antidote.
+            Why Workforce Exists?
           </h4>
           <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
             <div className="flex flex-col gap-4 border-l border-[#0b100f] pl-5 md:border-none md:pl-0">
-              <p className="text-[28px] font-medium">The AI Engine</p>
+              <p className="text-[28px] font-medium">The Problem</p>
               <p className="text-[16px]">
-                The most comprehensive and intelligent compliance engine ever
-                built for the Indian market. It is our silent partner,
-                tirelessly auditing every regulation and every data point.
+                The Operating Layer is Broken. Compliance isn’t paperwork—it’s
+                the control plane of a nation. 100+ Acts, 5,000+ departments,
+                thousands of deadlines, and no system of record.
               </p>
             </div>
             <div className="flex flex-col gap-4 border-l border-[#0b100f] pl-5">
-              <p className="text-[28px] font-medium">The Human Layer</p>
+              <p className="text-[28px] font-medium">What Workforce Is?</p>
               <p className="body3">
-                Our legal experts are not check-box auditors. They are strategic
-                advisors who use the AI's insights to provide nuanced counsel,
-                navigate disputes, and chart a course through regulatory
-                unknowns.
+                A Regulatory Execution Engine : We convert law into
+                infrastructure. Workforce maps every requirement, executes
+                filings on your behalf, tracks officer-level progress, and
+                renews everything automatically.
               </p>
             </div>
             <div className="flex flex-col gap-4 border-l border-[#0b100f] pl-5 ">
-              <p className="text-[28px] font-medium">The Partnership</p>
+              <p className="text-[28px] font-medium">Why workforce?</p>
               <p className="body3">
-                We don't deliver a report; we embed ourselves as an extension of
-                your leadership. Your compliance becomes our core business,
-                ensuring you are always positioned for success.
+                Discover — know every compliance you need. <br />
+                Execute — registrations, inspections, approvals. <br />
+                Track — real-time status, documents, SLAs.
+                <br /> Sustain — renewals, amendments, closures
               </p>
             </div>
           </div>

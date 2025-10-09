@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const VisionSection = () => {
   return (
@@ -33,13 +34,13 @@ const VisionSection = () => {
           transition={{ delay: 0.4, duration: 0.5 }}
           className="mt-8"
         >
-          <a
-            href="https://about-us-flame.vercel.app/"
-            target="_blank"
+          <Link
+            href="/aboutUs"
+       
             className="inline-block px-6 py-4 no-underline text-black bg-[#00f5d4] hover:bg-[#5bf5de] text-base font-medium rounded-sm transition"
           >
             Learn About Our Vision
-          </a>
+          </Link>
         </motion.div>
       </div>
     </section>
