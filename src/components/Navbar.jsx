@@ -298,6 +298,22 @@ export default function WindsurfNav() {
             href: "https://epfdesk.com",
             external: true,
           },
+           {
+            label: "ContentOne",
+            href: "/contentOne",
+          },
+           {
+            label: "ContentTwo",
+            href: "/contentTwo",
+          },
+           {
+            label: "ContentThree",
+            href: "/contentThree",
+          },
+           {
+            label: "ContentFour",
+            href: "/contentFour",
+          },
         ],
       },
     },

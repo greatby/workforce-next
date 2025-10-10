@@ -1,6 +1,6 @@
 import React from "react";
 
-const EnterpriseChoose = () => {
+const EnterpriseChoose = ({ data }) => {
   return (
     <div className="relative flex w-full justify-between lg:max-h-[754px] bg-[#f9f3e9]">
       <div className="mr-16 hidden h-full lg:block">
@@ -20,36 +20,21 @@ const EnterpriseChoose = () => {
         style={{ marginRight: "max(0px, calc((100vw - 80rem) / 2))" }}
       >
         <div className="flex h-fit w-fit flex-col">
-          <h4 className="text-[28px] sm:text-[48px] mb-16">
-            Why Workforce Exists?
-          </h4>
+          <h4 className="text-[28px] sm:text-[48px] mb-16">{data.title}</h4>
           <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
-            <div className="flex flex-col gap-4 border-l border-[#0b100f] pl-5 md:border-none md:pl-0">
-              <p className="text-[28px] font-medium">The Problem</p>
-              <p className="text-[16px]">
-                The Operating Layer is Broken. Compliance isn’t paperwork—it’s
-                the control plane of a nation. 100+ Acts, 5,000+ departments,
-                thousands of deadlines, and no system of record.
-              </p>
-            </div>
-            <div className="flex flex-col gap-4 border-l border-[#0b100f] pl-5">
-              <p className="text-[28px] font-medium">What Workforce Is?</p>
-              <p className="body3">
-                A Regulatory Execution Engine : We convert law into
-                infrastructure. Workforce maps every requirement, executes
-                filings on your behalf, tracks officer-level progress, and
-                renews everything automatically.
-              </p>
-            </div>
-            <div className="flex flex-col gap-4 border-l border-[#0b100f] pl-5 ">
-              <p className="text-[28px] font-medium">Why workforce?</p>
-              <p className="body3">
-                Discover — know every compliance you need. <br />
-                Execute — registrations, inspections, approvals. <br />
-                Track — real-time status, documents, SLAs.
-                <br /> Sustain — renewals, amendments, closures
-              </p>
-            </div>
+            {data.gridData.map((item, index) => (
+              <div
+                key={index}
+                className={`flex flex-col gap-4 border-l border-[#0b100f] pl-5 ${
+                  index === 0 ? "md:border-none md:pl-0" : ""
+                }`}
+              >
+                <p className="text-[28px] font-medium">{item.title}</p>
+                <p className="text-[16px] whitespace-pre-line">
+                  {item.description}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

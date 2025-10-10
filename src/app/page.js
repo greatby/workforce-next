@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import WindsurfNav from "@/components/Navbar";
 import WindsurfStatsLayout from "@/components/StatsSection";
 import VisionSection from "@/components/VisionSection";
-import { partnerData, sectionData } from "@/utils/data";
+import { deliversData, enterpriseData, heroData, partnerData, sectionData, visionData } from "@/utils/data";
 import HeroSection from "@/components/Hero";
 import ImageHighlightSlider from "@/components/Slider";
 import FeatureCards from "@/components/FeatureCards";
@@ -17,9 +17,9 @@ const Page = () => {
     <>
       {/* <WindsurfNav /> */}
       <FadeInWhenVisible>
-        <HeroSection />
+        <HeroSection data={heroData}/>
       </FadeInWhenVisible>
-        <VisionSection />
+        <VisionSection data={visionData}/>
       {/* <FadeInWhenVisible type="zoom-in" delay={0.1}>
         <ImageHighlightSlider sectionData={sectionData} />
       </FadeInWhenVisible>
@@ -34,9 +34,9 @@ const Page = () => {
         <WindsurfStatsLayout />
       </FadeInWhenVisible> */}
       {/* <Enterprise /> */}
-      <EnterpriseChoose />
-      <Delivers />
-      <FAQAccordion />
+      <EnterpriseChoose data={enterpriseData}/>
+      <Delivers data={deliversData}/>
+      {/* <FAQAccordion /> */}
       {/* <Footer /> */}
     </>
   );
