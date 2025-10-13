@@ -27,7 +27,7 @@ const visionPoints = [
 
 const SystemVisionSection = () => {
   return (
-    <section className="relative z-0 bg-gray-50 py-24 px-5 lg:px-20 text-gray-900">
+    <section className="relative z-0 bg-[#f9f3e9] py-24 px-5 lg:px-20 text-gray-900">
       <div className="max-w-5xl mx-auto text-center">
         <motion.h2
           className="text-4xl lg:text-5xl font-extrabold mb-6"

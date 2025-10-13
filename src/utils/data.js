@@ -107,10 +107,7 @@ export const partnerData = {
 
 export const heroData = {
   title: "India's Employment Law Infrastructure",
-  subTitle: `Every enterprise operates on regulation. We built the OS that
-executes it. From the Factories Act to the Labour Codes, across
-every state, every industry—compliance as a layer, not a liability.
-This is the system India scales on.`,
+  subTitle: `Every companies operates on regulation. We are building the system that executes it. From the EPF to the Factories Act, across every state, every industry. Compliance that works for you. This is the system that India scales on.`,
 };
 
 export const visionData = {
@@ -135,15 +132,14 @@ export const enterpriseData = {
       title: "From Regulatory Chaos to Operational Certainty",
       description: `Workforce transforms compliance into a fully automated governance infrastructure—capturing every regulation, structuring it into executable intelligence, and executing every filing seamlessly. It eliminates risk and manual effort, serving as the regulated backbone of enterprise operations.`,
     },
-       {
+    {
       title: "The Scale of What We're Building",
       description: `Workforce replaces India’s fragmented, manual compliance systems with a single intelligent execution layer that automates every filing and obligation across 36 states and 100+ labour laws—eliminating chaos and powering the backbone of India’s formal economy.`,
     },
-       {
+    {
       title: "The India That Runs on Workforce",
       description: `Workforce is building the infrastructure that makes India’s economy lawful, automated, and scalable—where compliance executes itself, workers receive their due benefits, and enterprises expand without risk. Each deployment reduces chaos and strengthens the nation’s formal backbone. For investors, it’s a massive, inevitable growth layer; for companies, it’s speed without risk; and for the team, it’s a mission to code the foundation of India’s next era.`,
     },
-    
   ],
 };
 

@@ -412,7 +412,7 @@ export default function WindsurfNav() {
         scrolled ? "bg-[#f9f3e9] text-black" : "bg-transparent text-white"
       }`}
     >
-      <nav className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
+      <nav className="flex font-navbar items-center justify-between px-6 py-4 max-w-7xl mx-auto">
         {/* Logo (left) */}
         <Link href="/" className="text-lg md:text-xl font-bold">
           WORKFORCE

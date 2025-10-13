@@ -33,7 +33,8 @@ const BuildingSection = () => {
         "Return filing with automatic reconciliation",
         "Certificate and audit trail management",
       ],
-      highlight: "This isn’t automation of your work. This is us doing the work.",
+      highlight:
+        "This isn’t automation of your work. This is us doing the work.",
     },
     {
       icon: <FaUniversity className="h-8 w-8 text-yellow-400" />,
@@ -53,7 +54,14 @@ const BuildingSection = () => {
   ];
 
   return (
-    <section className="relative w-full bg-white py-24 text-gray-900">
+    <section className="relative w-full bg-[#f9f3e9] py-24 text-gray-900">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute -left-24 top-0 z-10 hidden h-[1667px] w-[629px] bg-contain !bg-left-top bg-no-repeat md:block lg:left-0"
+        style={{
+          backgroundImage: "url(/images/about_investors_wave_outline.png)",
+        }}
+      ></div>
       <div className="mx-auto max-w-6xl px-6">
         {/* Section Header */}
         <motion.div
@@ -67,7 +75,8 @@ const BuildingSection = () => {
             How We’re Building This
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            Building employment law infrastructure requires solving problems most software companies don’t touch.
+            Building employment law infrastructure requires solving problems
+            most software companies don’t touch.
           </p>
         </motion.div>
 

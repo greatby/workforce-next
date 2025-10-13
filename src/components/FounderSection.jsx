@@ -18,7 +18,7 @@ const founder = {
 
 const FounderSection = () => {
   return (
-    <section className="relative z-0 bg-gray-50 py-24 px-5 lg:px-20 text-gray-900">
+    <section className="relative z-0 bg-[#f9f3e9] py-24 px-5 lg:px-20 text-gray-900">
       <div className="max-w-5xl mx-auto text-center lg:text-left flex flex-col lg:flex-row items-center gap-10">
         {/* Founder Image */}
         <motion.div

@@ -1,10 +1,61 @@
 @import "tailwindcss";
 
+
+
+/* -------------------------
+   Custom Local Fonts
+-------------------------- */
+@font-face {
+  font-family: "TitleFont";
+  src: url("/fonts/titleFont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NavbarFont";
+  src: url("/fonts/navbarFont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MainFont";
+  src: url("/fonts/mainFont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* -------------------------
+   Root Font Variables
+-------------------------- */
+:root {
+  --font-title: "TitleFont", sans-serif;
+  --font-navbar: "NavbarFont", sans-serif;
+  --font-main: "MainFont", sans-serif;
+}
+
+
+
+
 body,
 html {
   overflow-x: hidden;
   position: relative;
-  font-family: "Windsurf", ui-sans-serif, system-ui;
+ font-family: var(--font-main);
+}
+
+.font-navbar {
+  @apply font-sans; /* fallback */
+  font-family: var(--font-navbar);
+}
+
+.font-title {
+  @apply font-sans;
+  font-family: var(--font-title);
 }
 
 /* @keyframes moveStroke {
@@ -22,10 +73,4 @@ path {
   animation: moveStroke 3s linear infinite;
 } */
 
-@font-face {
-  font-family: "Windsurf";
-  src: url("/fonts/windsurf.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+

@@ -5,7 +5,16 @@ import { motion } from "framer-motion";
 
 const ProblemSection = () => {
   return (
-    <section className="relative w-full bg-white py-20 text-gray-900">
+    <section className="relative w-full bg-[#f9f3e9] py-20 text-gray-900">
+      <div className="z-5 absolute inset-0 h-full w-full">
+        <img
+          alt="Windsurf preview wave outline"
+         
+          className="block h-full w-full object-cover object-bottom"
+          src="/images/editor_preview_wave_outline.svg"
+          style={{position: "absolute", height: "100%", width: "100%", inset: "0px", color: "transparent"}}
+        />
+      </div>
       <div className="mx-auto max-w-6xl px-6">
         {/* Section Header */}
         <motion.div
@@ -77,7 +86,9 @@ const ProblemSection = () => {
 
           <p className="font-semibold text-gray-800 text-lg">
             This is not a workflow problem.{" "}
-            <span className="text-yellow-600">This is an infrastructure gap.</span>
+            <span className="text-yellow-600">
+              This is an infrastructure gap.
+            </span>
           </p>
         </motion.div>
       </div>
