@@ -106,40 +106,44 @@ export const partnerData = {
 };
 
 export const heroData = {
-  title: " Regulation, Executed.",
-  subTitle:
-    "The regulatory engine that keeps companies compliant by design—every Act, every Department, every Industry.",
+  title: "India's Employment Law Infrastructure",
+  subTitle: `Every enterprise operates on regulation. We built the OS that
+executes it. From the Factories Act to the Labour Codes, across
+every state, every industry—compliance as a layer, not a liability.
+This is the system India scales on.`,
 };
 
 export const visionData = {
   title: "The Human Challenge : The Cost of Ambition Is Complexity.",
-  subTitle: ` You're building the future, but you're held back by the past. A
-              complex web of labour laws—constantly in flux—traps capital, saps
-              energy, and elevates risk. This isn't just bureaucracy; it's the
-              invisible friction slowing down every strategic move, every hiring
-              decision, and every step towards your next milestone.`,
+  subTitle: `Workforce is the compliance infrastructure powering India’s next leap. It transforms employment law from a burden into an automated system—executing every regulation, filing, and obligation seamlessly across states. By removing legal bottlenecks, Workforce provides the structure that enables companies to build faster, safer, and stronger.`,
 };
 
 export const enterpriseData = {
-  title: "Why Workforce Exists?",
+  title: "Law as a Living System",
   gridData: [
     {
-      title: "The Problem",
+      title: "We Don't Automate Forms. We Orchestrate Law.",
       description:
-        "The Operating Layer is Broken. Compliance isn’t paperwork—it’s the control plane of a nation. 100+ Acts, 5,000+ departments, thousands of deadlines, and no system of record.",
+        "Workforce transforms India’s complex labour and industrial laws into a unified, automated compliance system—turning legal frameworks into executable infrastructure that enables national-scale growth.",
     },
     {
-      title: "What Workforce Is?",
+      title: "We Are the Execution Layer",
       description:
-        "A Regulatory Execution Engine: We convert law into infrastructure. Workforce maps every requirement, executes filings on your behalf, tracks officer-level progress, and renews everything automatically.",
+        "Workforce delivers end-to-end execution of labour compliance—automating every filing, registration, and update across states and authorities. It’s not software or consulting, but execution as a service, making Indian enterprise lawful, predictable, and scalable by design.",
     },
     {
-      title: "Why Workforce?",
-      description: `Discover — know every compliance you need. 
-      Execute — registrations, inspections, approvals. 
-      Track — real-time status, documents, SLAs. 
-      Sustain — renewals, amendments, closures.`,
+      title: "From Regulatory Chaos to Operational Certainty",
+      description: `Workforce transforms compliance into a fully automated governance infrastructure—capturing every regulation, structuring it into executable intelligence, and executing every filing seamlessly. It eliminates risk and manual effort, serving as the regulated backbone of enterprise operations.`,
     },
+       {
+      title: "The Scale of What We're Building",
+      description: `Workforce replaces India’s fragmented, manual compliance systems with a single intelligent execution layer that automates every filing and obligation across 36 states and 100+ labour laws—eliminating chaos and powering the backbone of India’s formal economy.`,
+    },
+       {
+      title: "The India That Runs on Workforce",
+      description: `Workforce is building the infrastructure that makes India’s economy lawful, automated, and scalable—where compliance executes itself, workers receive their due benefits, and enterprises expand without risk. Each deployment reduces chaos and strengthens the nation’s formal backbone. For investors, it’s a massive, inevitable growth layer; for companies, it’s speed without risk; and for the team, it’s a mission to code the foundation of India’s next era.`,
+    },
+    
   ],
 };
 
@@ -184,7 +188,6 @@ export const deliversData = {
     // },
   ],
 };
-
 
 export const contentOneheroData = {
   title: "Workforce — The Operating System of Employment",
@@ -305,7 +308,6 @@ export const contentTwodeliversData = {
   line: "From the shop floor to the boardroom — Workforce synchronizes India’s legal nerve system.",
 };
 
-
 export const contentThreeheroData = {
   title: "India Works Because Workforce Does.",
   subTitle:
@@ -376,8 +378,7 @@ export const contentFourheroData = {
   subTitle:
     "A billion dreams run on the machinery of law — invisible, intricate, essential. Workforce is that machinery. We are the operating system of lawful work — the structure beneath every factory, every startup, every payslip, every reform.",
   primaryCta: "Access the Infrastructure",
-  visualCaption:
-    "The Nation That Works. The System That Never Sleeps.",
+  visualCaption: "The Nation That Works. The System That Never Sleeps.",
 };
 
 export const contentFourvisionData = {
@@ -386,7 +387,8 @@ export const contentFourvisionData = {
 India’s next leap — from $5 trillion to $10 trillion — will not be built only by innovation or ambition, 
 but by structure: by every law that works, every worker protected, every enterprise that can grow without fear. 
 Workforce is the invisible infrastructure behind that structure. We do not merely interpret regulation — we operate it.`,
-  highlight: "Compliance is not a cost. It is the confidence of a nation at work.",
+  highlight:
+    "Compliance is not a cost. It is the confidence of a nation at work.",
 };
 
 export const contentFourenterpriseData = {
@@ -452,5 +454,3 @@ export const contentFourdeliversData = {
   ],
   line: "We are Workforce — the invisible infrastructure of a visible future.",
 };
-
-

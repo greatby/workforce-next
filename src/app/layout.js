@@ -3,8 +3,14 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Workforce | Empowering India's Workforce",
-  description: "From People to Pioneering AI Agents",
+  title: "Workforce - India's Employment Law Infrastructure",
+  description:
+    "Workforce executes employment law compliance for Indian companies—EPF, ESIC, Factories Act, S&E, Contract Labour—across all 36 states. Monthly compliance, registrations, and closures handled automatically. Zero penalties guaranteed.",
+      alternates: { canonical: "https://workforce.com" },
+  openGraph: {
+    title: "Workforce - India's Employment Law Infrastructure",
+    url: "https://workforce.com",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -14,7 +20,7 @@ export default function RootLayout({ children }) {
         <WindsurfNav />
         {children}
         <Footer />
-      <div id="modal-root"></div>
+        <div id="modal-root"></div>
       </body>
     </html>
   );

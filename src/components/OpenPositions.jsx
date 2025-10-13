@@ -159,7 +159,7 @@ export default function Careers() {
         <h1 className="text-5xl font-semibold text-center">Open Positions</h1>
 
         {/* Filters */}
-        <div className="flex flex-wrap gap-4 justify-between bg-[#f6eede] p-6 rounded-md">
+        {/* <div className="flex flex-wrap gap-4 justify-between bg-[#f6eede] p-6 rounded-md">
           <div className="flex flex-col md:flex-row gap-4">
             <select
               value={filters.department}
@@ -205,10 +205,10 @@ export default function Careers() {
               ))}
             </select>
           </div>
-        </div>
+        </div> */}
 
         {/* Job List */}
-        <div className="flex w-full justify-center items-center mx-auto max-w-2xl flex-col gap-16 mt-6">
+        <div className="grid w-full mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mt-6">
           {filteredJobs.map((job) => (
             <button
               key={job.id}

@@ -11,6 +11,9 @@ import Enterprise from "@/components/Enterprise";
 import EnterpriseChoose from "@/components/EnterpriseChoose";
 import Delivers from "@/components/Delivers";
 import FAQAccordion from "@/components/FAQ";
+import CaseStudyTestimonials from "@/components/Testimonial";
+import ClosuresCritical from "@/components/ClosureCritical";
+import ContactWorkforce from "@/components/ContactWorkforce";
 
 const Page = () => {
   return (
@@ -23,7 +26,7 @@ const Page = () => {
       {/* <FadeInWhenVisible type="zoom-in" delay={0.1}>
         <ImageHighlightSlider sectionData={sectionData} />
       </FadeInWhenVisible>
-      <VisionSection />
+  
       <FadeInWhenVisible type="slide-right" delay={0.2}>
         <FeatureCards />
       </FadeInWhenVisible>
@@ -35,7 +38,10 @@ const Page = () => {
       </FadeInWhenVisible> */}
       {/* <Enterprise /> */}
       <EnterpriseChoose data={enterpriseData}/>
-      <Delivers data={deliversData}/>
+      {/* <Delivers data={deliversData}/> */}
+      <CaseStudyTestimonials/>
+      <ClosuresCritical />
+      <ContactWorkforce/>
       {/* <FAQAccordion /> */}
       {/* <Footer /> */}
     </>

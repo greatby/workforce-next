@@ -72,7 +72,7 @@ export default function AboutHero() {
           </div>
 
           {/* Join Our Team */}
-          <div className="flex w-full flex-col gap-8 rounded-md bg-[#f9f3e9] p-6 sm:flex-row sm:items-center sm:justify-between sm:gap-4 sm:p-10">
+          {/* <div className="flex w-full flex-col gap-8 rounded-md bg-[#f9f3e9] p-6 sm:flex-row sm:items-center sm:justify-between sm:gap-4 sm:p-10">
             <div className="flex flex-col gap-1 md:gap-0">
               <div className="subheading2">Join Our Team</div>
               <div className="body1 w-full opacity-60 sm:w-3/4 lg:w-full">
@@ -84,7 +84,7 @@ export default function AboutHero() {
                 View Positions
               </button>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

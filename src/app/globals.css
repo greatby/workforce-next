@@ -7,7 +7,7 @@ html {
   font-family: "Windsurf", ui-sans-serif, system-ui;
 }
 
-@keyframes moveStroke {
+/* @keyframes moveStroke {
   0% {
     stroke-dashoffset: 1000;
   }
@@ -20,7 +20,7 @@ path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: moveStroke 3s linear infinite;
-}
+} */
 
 @font-face {
   font-family: "Windsurf";

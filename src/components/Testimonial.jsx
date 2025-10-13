@@ -1,132 +1,88 @@
-"use client"
+"use client";
 import { useEffect, useRef, useState } from "react";
 import { FaArrowRightLong, FaArrowLeftLong } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Sandhya Sridharan",
-    role: "Global Head of Engineers’ Platform & Integrated Experience, JPMorgan Chase",
-    logo: "/logo/external-logos/jpmorgan_chase_logo.svg",
-    link: "https://windsurf.com/blog/jpmc-codeium-hall-of-innovation",
-    quote:
-      "We are pleased to induct Windsurf into the JPMorganChase Hall of Innovation...",
+    quote: "Monthly Statutory Compliance",
+    role: `EPF, ESIC, Professional Tax, Labour Welfare Fund—filed automatically before
+every deadline. We handle contribution calculations, challan generation, return filing, and
+payment tracking across all your locations and entities.`,
     bg: "bg-[#D3F2EF]",
-    outline: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
-    gradient: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
+    outline:
+      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
+    gradient:
+      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
+    logo: "https://windsurf.com/logo/external-logos/jpmorgan_chase_logo.svg",
   },
   {
-    name: "Sandhya Sridharan",
-    role: "Global Head of Engineers’ Platform & Integrated Experience, JPMorgan Chase",
-    logo: "/logo/external-logos/jpmorgan_chase_logo.svg",
-    link: "https://windsurf.com/blog/jpmc-codeium-hall-of-innovation",
-    quote:
-      "We are pleased to induct Windsurf into the JPMorganChase Hall of Innovation...",
+    quote: "Registrations & Licenses",
+    role: `When you expand to a new state, open a factory, or cross employee thresholds, we
+execute every registration—EPF, ESIC, Factories Act, Shops & Establishments, Contract
+Labour. You focus on operations. We secure every license before you need it.`,
     bg: "bg-[#D3F2EF]",
-    outline: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
-    gradient: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
-  },
-  {
-    name: "Sandhya Sridharan",
-    role: "Global Head of Engineers’ Platform & Integrated Experience, JPMorgan Chase",
-    logo: "/logo/external-logos/jpmorgan_chase_logo.svg",
-    link: "https://windsurf.com/blog/jpmc-codeium-hall-of-innovation",
-    quote:
-      "We are pleased to induct Windsurf into the JPMorganChase Hall of Innovation...",
-    bg: "bg-[#D3F2EF]",
-    outline: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
-    gradient: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
-  },{
-    name: "Sandhya Sridharan",
-    role: "Global Head of Engineers’ Platform & Integrated Experience, JPMorgan Chase",
-    logo: "/logo/external-logos/jpmorgan_chase_logo.svg",
-    link: "https://windsurf.com/blog/jpmc-codeium-hall-of-innovation",
-    quote:
-      "We are pleased to induct Windsurf into the JPMorganChase Hall of Innovation...",
-    bg: "bg-[#D3F2EF]",
-    outline: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
-    gradient: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
-  },{
-    name: "Sandhya Sridharan",
-    role: "Global Head of Engineers’ Platform & Integrated Experience, JPMorgan Chase",
-    logo: "/logo/external-logos/jpmorgan_chase_logo.svg",
-    link: "https://windsurf.com/blog/jpmc-codeium-hall-of-innovation",
-    quote:
-      "We are pleased to induct Windsurf into the JPMorganChase Hall of Innovation...",
-    bg: "bg-[#D3F2EF]",
-    outline: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
-    gradient: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
-  },{
-    name: "Sandhya Sridharan",
-    role: "Global Head of Engineers’ Platform & Integrated Experience, JPMorgan Chase",
-    logo: "/logo/external-logos/jpmorgan_chase_logo.svg",
-    link: "https://windsurf.com/blog/jpmc-codeium-hall-of-innovation",
-    quote:
-      "We are pleased to induct Windsurf into the JPMorganChase Hall of Innovation...",
-    bg: "bg-[#D3F2EF]",
-    outline: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
-    gradient: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
-  },{
-    name: "Sandhya Sridharan",
-    role: "Global Head of Engineers’ Platform & Integrated Experience, JPMorgan Chase",
-    logo: "/logo/external-logos/jpmorgan_chase_logo.svg",
-    link: "https://windsurf.com/blog/jpmc-codeium-hall-of-innovation",
-    quote:
-      "We are pleased to induct Windsurf into the JPMorganChase Hall of Innovation...",
-    bg: "bg-[#D3F2EF]",
-    outline: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
-    gradient: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
-  },{
-    name: "Sandhya Sridharan",
-    role: "Global Head of Engineers’ Platform & Integrated Experience, JPMorgan Chase",
-    logo: "/logo/external-logos/jpmorgan_chase_logo.svg",
-    link: "https://windsurf.com/blog/jpmc-codeium-hall-of-innovation",
-    quote:
-      "We are pleased to induct Windsurf into the JPMorganChase Hall of Innovation...",
-    bg: "bg-[#D3F2EF]",
-    outline: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
-    gradient: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
-  },{
-    name: "Sandhya Sridharan",
-    role: "Global Head of Engineers’ Platform & Integrated Experience, JPMorgan Chase",
-    logo: "/logo/external-logos/jpmorgan_chase_logo.svg",
-    link: "https://windsurf.com/blog/jpmc-codeium-hall-of-innovation",
-    quote:
-      "We are pleased to induct Windsurf into the JPMorganChase Hall of Innovation...",
-    bg: "bg-[#D3F2EF]",
-    outline: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
-    gradient: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
-  },{
-    name: "Sandhya Sridharan",
-    role: "Global Head of Engineers’ Platform & Integrated Experience, JPMorgan Chase",
-    logo: "/logo/external-logos/jpmorgan_chase_logo.svg",
-    link: "https://windsurf.com/blog/jpmc-codeium-hall-of-innovation",
-    quote:
-      "We are pleased to induct Windsurf into the JPMorganChase Hall of Innovation...",
-    bg: "bg-[#D3F2EF]",
-    outline: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
-    gradient: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
-  },{
-    name: "Sandhya Sridharan",
-    role: "Global Head of Engineers’ Platform & Integrated Experience, JPMorgan Chase",
-    logo: "/logo/external-logos/jpmorgan_chase_logo.svg",
-    link: "https://windsurf.com/blog/jpmc-codeium-hall-of-innovation",
-    quote:
-      "We are pleased to induct Windsurf into the JPMorganChase Hall of Innovation...",
-    bg: "bg-[#D3F2EF]",
-    outline: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
-    gradient: "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
+    outline:
+      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_1.svg')",
+    gradient:
+      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_1.svg')",
+    logo: "https://windsurf.com/logo/external-logos/mercado_libre_logo.svg",
   },
 
+  {
+    quote: "Clean Closures & Exits",
+    role: `Shutting down a unit? Restructuring? Workforce executes complete employment law
+closure—EPF, ESIC, Factories, Contract Labour, Shops & Establishments—in 30 days.
+Zero penalties. Zero disputes. Clean exit guaranteed.`,
+    bg: "bg-[#D3F2EF]",
+    outline:
+      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_2.svg')",
+    gradient:
+      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_2.svg')",
+    logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+  },
+  {
+    quote: "Multi-State Expansion",
+    role: `Open a new location in any of India's 36 states without worrying about local labour
+codes. We map state-specific requirements, execute registrations, and maintain ongoing
+compliance—so geography never limits your growth.`,
+    bg: "bg-[#D3F2EF]",
+    outline:
+      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_3.svg')",
+    gradient:
+      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_3.svg')",
+    logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+  },
+  {
+    quote: "Real-Time Regulatory Intelligence",
+    role: `Labour laws change constantly—new circulars, rate revisions, form updates,
+deadline shifts. We capture every change the day it's published and apply it to your
+operations automatically. You're always compliant, never caught off-guard.`,
+    bg: "bg-[#D3F2EF]",
+    outline:
+      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
+    gradient:
+      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
+    logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+  },
+  {
+    quote: "Audit & Inspection Support",
+    role: `When labour inspectors arrive or statutory audits begin, we provide complete
+documentation, represent your compliance posture, and resolve any discrepancies. Your
+operations continue undisrupted.`,
+    bg: "bg-[#D3F2EF]",
+    outline:
+      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_1.svg')",
+    gradient:
+      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_1.svg')",
+    logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+  },
 ];
-
-
 
 export default function CaseStudyTestimonials() {
   const scrollRef = useRef(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
-
 
   const checkScroll = () => {
     const el = scrollRef.current;
@@ -157,7 +113,7 @@ export default function CaseStudyTestimonials() {
       <div className="mx-auto max-w-7xl px-4">
         <div className="flex items-center justify-between mb-10">
           <h2 className="text-2xl font-semibold md:text-4xl">
-            Case Study Testimonials
+            What We Execute for You
           </h2>
           <div className="hidden md:flex gap-4">
             <button
@@ -217,9 +173,6 @@ export default function CaseStudyTestimonials() {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <p className="font-medium text-black text-sm md:text-lg">
-                      {t.name}
-                    </p>
                     <p className="text-xs md:text-sm font-semibold text-black">
                       {t.role}
                     </p>

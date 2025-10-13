@@ -1,6 +1,7 @@
 "use client";
 
 import AboutSection from "./AboutSection";
+import { motion } from "framer-motion";
 
 export default function MissionHero() {
   return (
@@ -24,18 +25,43 @@ export default function MissionHero() {
       />
 
       {/* Main content */}
-      <section className=" py-20 px-4 text-center">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white max-w-4xl mx-auto">
-          Rebuilding the Execution Layer of Law
-        </h1>
-        <p className="mt-4 text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto">
-          Workforce transforms compliance from paperwork into infrastructure —
-          mapping every Act, department, and filing into executable systems.
-          When regulation runs on code, governance becomes predictable, and
-          trust becomes scalable.
-        </p>
+      <section className=" h-screen flex flex-col justify-center items-center py-20 px-4 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="mx-auto max-w-5xl px-6 text-center"
+        >
+          {/* Tagline */}
+          <p className="text-sm font-medium uppercase tracking-widest text-yellow-400">
+            About Workforce
+          </p>
+
+          {/* Main Headline */}
+          <h1 className="mt-4 text-4xl font-extrabold leading-tight sm:text-5xl md:text-6xl">
+            The Execution Layer of Law
+          </h1>
+
+          {/* Subtext */}
+          <p className="mx-auto mt-6 max-w-3xl text-base text-gray-300 sm:text-lg md:text-xl">
+            India operates under 100+ employment acts across 36 states. Every
+            enterprise must comply. Yet compliance itself—the machinery of
+            registration, filing, and closure—remains manual, fragmented, and
+            opaque.
+          </p>
+
+          <p className="mx-auto mt-4 max-w-3xl text-base text-gray-400 sm:text-lg">
+            <strong className="text-white">Workforce</strong> rebuilds this
+            layer. We don’t advise on the law.{" "}
+            <br className="hidden sm:block" />
+            <span className="text-yellow-400">We execute it.</span>
+          </p>
+
+          {/* Decorative Divider */}
+          <div className="mx-auto mt-10 h-[2px] w-20 bg-yellow-500/80"></div>
+        </motion.div>
       </section>
-      <AboutSection />
+      {/* <AboutSection /> */}
     </section>
   );
 }

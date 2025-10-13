@@ -145,7 +145,7 @@ const GovernmentHero = ({data}) => {
 
       {/* Content Section */}
       <div className="relative mx-auto flex h-full w-full max-w-7xl justify-center items-center flex-col px-5 text-white md:mt-24">
-        <div className="z-10 mt-44 flex w-full flex-col items-center justify-center gap-20 lg:mt-0 lg:flex-row">
+        <div className="z-10 m-[_100px_0px] flex w-full flex-col items-center justify-center gap-20 lg:mt-0 lg:flex-row">
           {/* Left Content */}
           <div className="flex w-full flex-col justify-center text-center gap-8 lg:w-1/2">
             <h1 className="text-3xl font-semibold md:text-5xl">
