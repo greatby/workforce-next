@@ -148,7 +148,7 @@ const GovernmentHero = ({data}) => {
         <div className="z-10 m-[_100px_0px] flex w-full flex-col items-center justify-center gap-20 lg:mt-0 lg:flex-row">
           {/* Left Content */}
           <div className="flex w-full flex-col justify-center text-center gap-8 lg:w-1/2">
-            <h1 className="text-3xl font-title font-semibold md:text-6xl">
+            <h1 className="text-3xl font-semibold md:text-6xl">
              {data.title}
             </h1>
             <p className="text-[18px] font-main opacity-90 leading-relaxed">

@@ -161,11 +161,11 @@ export default function CaseStudyTestimonials() {
                 style={{ backgroundImage: t.gradient }}
               />
               <div className="relative flex h-full flex-col justify-between z-10">
-                <p className="text-sm md:text-lg text-black leading-snug whitespace-pre-line">
+                <p className="text-sm md:text-3xl font-semibold text-black leading-snug whitespace-pre-line">
                   {t.quote}
                 </p>
                 <div className="flex items-center gap-4 mt-6">
-                  <div className="h-12 w-12 rounded-lg bg-white p-2">
+                  <div className="w-42 h-42 rounded-lg">
                     <img
                       src={t.logo}
                       alt="logo"
@@ -173,7 +173,7 @@ export default function CaseStudyTestimonials() {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <p className="text-xs md:text-sm font-semibold text-black">
+                    <p className="text-sm md:text-sm font-semibold text-black">
                       {t.role}
                     </p>
                   </div>
