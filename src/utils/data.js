@@ -115,6 +115,11 @@ export const visionData = {
   subTitle: `Workforce is the compliance infrastructure powering India’s next leap. It transforms employment law from a burden into an automated system—executing every regulation, filing, and obligation seamlessly across states. By removing legal bottlenecks, Workforce provides the structure that enables companies to build faster, safer, and stronger.`,
 };
 
+export const visionDataAbout = {
+  title: "The Human Challenge: Execution Is the Hidden Bottleneck",
+  subTitle: `India’s employment law framework is vast and complex, governing 63 million formal workers across 36 states and thousands of forms. Workforce transforms this complexity into a unified, automated compliance system—executing regulations, filings, and obligations seamlessly. By removing execution bottlenecks, companies can grow faster, safer, and more predictably, while workers receive their due benefits.`,
+};
+
 export const enterpriseData = {
   title: "Law as a Living System",
   gridData: [
@@ -449,4 +454,38 @@ export const contentFourdeliversData = {
     },
   ],
   line: "We are Workforce — the invisible infrastructure of a visible future.",
+};
+
+
+export const buildingData = {
+  title: "How We’re Building This",
+  gridData: [
+    {
+      title: "The Regulatory Knowledge Problem",
+      description: `We're mapping India's entire employment law framework—every act, every amendment, every state variation, every circular—into structured, executable intelligence. This includes:
+- 100+ central and state employment acts
+- 36 state-specific variations and procedures
+- 5,000+ forms across authorities
+- Real-time amendments and circulars
+- Authority-specific filing requirements`,
+    },
+    {
+      title: "The Execution System",
+      description: `We’ve rebuilt compliance operations as code — not workflow software, but actual execution infrastructure. Our system handles:
+- Contribution calculations that account for state variations
+- Multi-state challan generation and payment tracking
+- Deadline monitoring synchronized across authorities
+- Return filing with automatic reconciliation
+- Certificate and audit trail management`,
+    },
+    {
+      title: "The Authority Integration Layer",
+      description: `The hardest part isn’t technical — it’s institutional. We’re building relationships and integration points with India’s regulatory network:
+- EPFO regional offices across 36 states
+- ESIC branch offices and dispensaries
+- State labour departments and commissioners
+- Factory inspectorates and registrars
+- Municipal corporations for S&E registrations`,
+    },
+  ],
 };

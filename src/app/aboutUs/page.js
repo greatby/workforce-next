@@ -1,5 +1,6 @@
 import BuildingSection from '@/components/BuildingSection'
 import ClosingStatementSection from '@/components/ClosingStatementSection'
+import EnterpriseChoose from '@/components/EnterpriseChoose'
 import FounderSection from '@/components/FounderSection'
 import MissionHero from '@/components/HeroAboutUs'
 import PrinciplesSection from '@/components/PrinciplesSection'
@@ -9,21 +10,25 @@ import SystemVisionSection from '@/components/SystemVisionSecton'
 import WhyExistSection from '@/components/WhyExitSection'
 import WhyNowSection from '@/components/WhyNowSection'
 import WorkWithUsSection from '@/components/WorkWithUsSection'
+import VisionSection from "@/components/VisionSection";
+import { buildingData, visionDataAbout } from '@/utils/data'
 import React from 'react'
 
 const About = () => {
   return (
    <>
    <MissionHero/>
-   <ProblemSection />
+   {/* <ProblemSection /> */}
+   <VisionSection data={visionDataAbout}/>
    <SolutionSection />
-   <BuildingSection />
-   <WhyExistSection />
-   <WhyNowSection />
+   {/* <BuildingSection /> */}
+   <EnterpriseChoose data={buildingData}/>
+   {/* <WhyExistSection />
+   <WhyNowSection /> */}
    <FounderSection />
-   <PrinciplesSection />
+   {/* <PrinciplesSection />
    <SystemVisionSection />
-   <WorkWithUsSection />
+   <WorkWithUsSection /> */}
    <ClosingStatementSection />
    </>
   )
