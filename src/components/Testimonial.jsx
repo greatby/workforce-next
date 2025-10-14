@@ -112,7 +112,7 @@ export default function CaseStudyTestimonials() {
     <section className="bg-white py-24 md:py-44">
       <div className="mx-auto max-w-7xl px-4">
         <div className="flex items-center justify-between mb-10">
-          <h2 className="text-2xl font-semibold md:text-4xl">
+          <h2 className="text-2xl font-title font-semibold md:text-4xl">
             What We Execute for You
           </h2>
           <div className="hidden md:flex gap-4">
@@ -161,7 +161,7 @@ export default function CaseStudyTestimonials() {
                 style={{ backgroundImage: t.gradient }}
               />
               <div className="relative flex h-full flex-col justify-between z-10">
-                <p className="text-sm md:text-3xl font-semibold text-black leading-snug whitespace-pre-line">
+                <p className="text-sm md:text-2xl font-semibold font-subtitle text-black leading-snug whitespace-pre-line">
                   {t.quote}
                 </p>
                 <div className="flex items-center gap-4 mt-6">
@@ -173,7 +173,7 @@ export default function CaseStudyTestimonials() {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <p className="text-sm md:text-sm font-semibold text-black">
+                    <p className="text-sm md:text-sm font-subtitle font-semibold text-black">
                       {t.role}
                     </p>
                   </div>

@@ -89,12 +89,12 @@ export default function ClosuresCritical({
         <div className="closure-dramatic-intro mb-10 sm:mb-14 lg:mb-20">
           <span className="inline-flex items-center gap-2 rounded-md bg-yellow-500/10 px-3 py-1 text-yellow-300 text-sm font-medium ring-1 ring-yellow-600/30">
             <span aria-hidden>⚠</span>
-            <span>Critical Compliance</span>
+            <span className='font-subtitle'>Critical Compliance</span>
           </span>
 
-          <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight">The Cost of Getting Closure Wrong</h2>
+          <h2 className="mt-4 font-titile text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight">The Cost of Getting Closure Wrong</h2>
 
-          <p className="lead-text mt-4 max-w-3xl text-gray-300 text-lg sm:text-xl">
+          <p className="lead-text mt-4 font-subtitle max-w-3xl text-gray-300 text-lg sm:text-xl">
             When you close a factory, shut down a shop, or exit a location, employment law doesn't just end — it escalates. Improper closure triggers penalties that can destroy businesses and land directors in criminal court.
           </p>
         </div>
@@ -103,9 +103,9 @@ export default function ClosuresCritical({
         <div className="repercussions-grid grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
           {repercussions.map((r, idx) => (
             <article key={r.title} className="repercussion-card group rounded-xl bg-gray-800/60 p-6 ring-1 ring-gray-700 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-semibold text-white">{r.title}</h3>
-              <div className="penalty-amount mt-2 text-lg font-bold text-yellow-300">{r.amount}</div>
-              <p className="violation-type mt-1 text-sm text-gray-300">{r.type}</p>
+              <h3 className="text-xl font-title font-semibold text-white">{r.title}</h3>
+              <div className="penalty-amount font-subtitle mt-2 text-lg font-bold text-yellow-300">{r.amount}</div>
+              <p className="violation-type mt-1 text-sm font-subtitle text-gray-300">{r.type}</p>
 
               <ul className="consequences mt-4 space-y-2 text-sm text-gray-200">
                 {r.consequences.map((c, i) => (
@@ -118,23 +118,23 @@ export default function ClosuresCritical({
                 ))}
               </ul>
 
-              <p className="real-consequence mt-4 text-sm italic text-gray-300">"{r.example}"</p>
+              <p className="real-consequence mt-4 font-subtitle text-sm italic text-gray-300">"{r.example}"</p>
             </article>
           ))}
 
           {/* Combined impact card spans full width on small screens */}
           <article className="repercussion-card total-impact col-span-1 sm:col-span-2 lg:col-span-1 rounded-xl bg-gradient-to-r from-red-800/80 to-red-700/70 p-6 ring-1 ring-red-900">
-            <h3 className="text-xl font-semibold text-white">The Compounding Effect</h3>
-            <div className="penalty-amount total mt-2 text-lg font-bold text-white">₹10,00,000+</div>
-            <p className="violation-type mt-1 text-sm text-gray-100">Aggregate Liability Across All Acts</p>
+            <h3 className="text-xl font-semibold font-title text-white">The Compounding Effect</h3>
+            <div className="penalty-amount font-subtitle total mt-2 text-lg font-bold text-white">₹10,00,000+</div>
+            <p className="violation-type font-subtitle mt-1 text-sm text-gray-100">Aggregate Liability Across All Acts</p>
 
             <ul className="consequences mt-4 space-y-2 text-sm text-gray-100">
-              <li className="flex items-start gap-3"><strong>Penalties compound:</strong> EPF + ESIC + Factories + Contract + S&E = ₹10L-30L</li>
-              <li className="flex items-start gap-3"><strong>Criminal proceedings multiply:</strong> Multiple authorities can prosecute simultaneously</li>
-              <li className="flex items-start gap-3"><strong>Director disqualification:</strong> Under Company Law for noncompliance</li>
-              <li className="flex items-start gap-3"><strong>Bank account freezing:</strong> Recovery through account attachment</li>
-              <li className="flex items-start gap-3"><strong>Future venture damage:</strong> Negative records follow you to next business</li>
-              <li className="flex items-start gap-3"><strong>Investor/acquirer diligence failure:</strong> Past violations kill M&A deals</li>
+              <li className="flex items-start gap-3 font-subtitle"><strong>Penalties compound:</strong> EPF + ESIC + Factories + Contract + S&E = ₹10L-30L</li>
+              <li className="flex items-start gap-3 font-subtitle"><strong>Criminal proceedings multiply:</strong> Multiple authorities can prosecute simultaneously</li>
+              <li className="flex items-start gap-3 font-subtitle"><strong>Director disqualification:</strong> Under Company Law for noncompliance</li>
+              <li className="flex items-start gap-3 font-subtitle"><strong>Bank account freezing:</strong> Recovery through account attachment</li>
+              <li className="flex items-start gap-3 font-subtitle"><strong>Future venture damage:</strong> Negative records follow you to next business</li>
+              <li className="flex items-start gap-3 font-subtitle"><strong>Investor/acquirer diligence failure:</strong> Past violations kill M&A deals</li>
             </ul>
 
             <p className="real-consequence mt-4 text-sm italic text-gray-100">"Founder couldn't raise Series A because due diligence uncovered ₹22 lakh in unresolved labour law closure violations from previous venture."</p>
@@ -143,8 +143,8 @@ export default function ClosuresCritical({
 
         {/* Clean Exit Solution */}
         <div className="closure-solution mt-10 sm:mt-14 lg:mt-20 bg-gray-900/40 rounded-2xl p-6 ring-1 ring-gray-700">
-          <h2 className="text-2xl sm:text-3xl font-bold">The Clean Exit: How Workforce Eliminates All Closure Risk</h2>
-          <p className="solution-intro mt-3 text-gray-300 max-w-3xl">Workforce executes complete employment law closure for all 5 acts simultaneously — in 30 days, with zero penalties, zero disputes, and zero future liability. You walk away clean.</p>
+          <h2 className="text-2xl font-title sm:text-3xl font-bold">The Clean Exit: How Workforce Eliminates All Closure Risk</h2>
+          <p className="solution-intro mt-3 font-subtitle text-gray-300 max-w-3xl">Workforce executes complete employment law closure for all 5 acts simultaneously — in 30 days, with zero penalties, zero disputes, and zero future liability. You walk away clean.</p>
 
           <div className="closure-process mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
             {[
@@ -183,7 +183,7 @@ export default function ClosuresCritical({
           </div>
 
           <div className="closure-guarantee mt-6 rounded-lg bg-gray-800/60 p-4">
-            <h3 className="text-lg font-semibold text-white">Our Guarantee</h3>
+            <h3 className="text-lg font-title font-semibold text-white">Our Guarantee</h3>
             <ul className="guarantee-list mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3 text-sm text-gray-300">
               <li><strong>30-day completion:</strong> All 5 acts closed within 30 days or we refund our fee</li>
               <li><strong>Zero penalties:</strong> If any penalty arises from our closure process, we pay it</li>
@@ -194,7 +194,7 @@ export default function ClosuresCritical({
           </div>
 
           <div className="closure-pricing mt-6">
-            <h3 className="text-lg font-semibold text-white">Transparent Closure Pricing</h3>
+            <h3 className="text-lg font-title font-semibold text-white">Transparent Closure Pricing</h3>
             <div className="pricing-tiers mt-4 grid gap-4 sm:grid-cols-3">
               <div className="pricing-tier rounded-lg bg-gray-800/60 p-4 ring-1 ring-gray-700">
                 <h4 className="text-sm font-semibold text-white">Single Unit Closure</h4>
@@ -234,7 +234,7 @@ export default function ClosuresCritical({
 
           <div className="closure-cta-section mt-8 rounded-lg bg-gray-800/70 p-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <h3 className="text-lg font-semibold text-white">Don't Risk ₹10 Lakhs in Penalties and Criminal Prosecution</h3>
+              <h3 className="text-lg font-title font-semibold text-white">Don't Risk ₹10 Lakhs in Penalties and Criminal Prosecution</h3>
               <p className="mt-2 text-sm text-gray-300">When you close a business unit, employment law compliance doesn't end — it escalates. Workforce guarantees clean closure across all 5 acts in 30 days. No penalties. No disputes. No future liability.</p>
               <p className="closure-urgency mt-3 text-sm text-yellow-300">⚠ <strong>Time-sensitive:</strong> Labour law requires closure filing within 60 days of cessation. Delays multiply penalties. Act now.</p>
             </div>

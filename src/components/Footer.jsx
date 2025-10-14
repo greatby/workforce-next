@@ -87,8 +87,8 @@ export default function Footer() {
         {/* Logo + Social */}
         <div className="lg:flex lg:justify-between lg:items-start mb-12">
           <div className="space-y-4 max-w-sm mb-10 lg:mb-0">
-           <h1 className="text-xl font-bold">WORKFORCE</h1>
-            <p className="text-sm text-white/60">Building the Compliance Brain of the Nation</p>
+           <h1 className="text-xl font-main font-bold">WORKFORCE</h1>
+            <p className="text-sm font-subtitle text-white/60">Building the Compliance Brain of the Nation</p>
             <div className="flex flex-wrap gap-4">
               {socialLinks.map(({ icon: Icon, href, label }, i) => (
                 <a key={i} href={href} target="_blank" rel="noopener noreferrer" aria-label={label}>
@@ -102,11 +102,11 @@ export default function Footer() {
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-5">
             {footerColumns.map((col, idx) => (
               <div key={idx}>
-                <h4 className="text-sm font-semibold uppercase mb-3">{col.heading}</h4>
+                <h4 className="text-sm font-navbar font-semibold uppercase mb-3">{col.heading}</h4>
                 <ul className="space-y-2 text-sm text-white/60">
                   {col.links.map((link, i) => (
                     <li key={i}>
-                      <a href={link.href} className="hover:text-white transition-colors">
+                      <a href={link.href} className="hover:text-white font-subtitle transition-colors">
                         {link.label}
                       </a>
                     </li>

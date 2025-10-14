@@ -29,6 +29,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "SubtitleFont";
+  src: url("/fonts/subTitleFont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* -------------------------
    Root Font Variables
 -------------------------- */
@@ -36,6 +44,7 @@
   --font-title: "TitleFont", sans-serif;
   --font-navbar: "NavbarFont", sans-serif;
   --font-main: "MainFont", sans-serif;
+  --font-subtitle: "SubtitleFont", sans-serif;
 }
 
 
@@ -58,6 +67,10 @@ html {
   font-family: var(--font-title);
 }
 
+.font-subtitle {
+  @apply font-sans;
+  font-family: var(--font-subtitle);
+}
 /* @keyframes moveStroke {
   0% {
     stroke-dashoffset: 1000;

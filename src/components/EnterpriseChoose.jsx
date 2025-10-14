@@ -78,7 +78,7 @@ const EnterpriseChoose = ({ data }) => {
       >
         <div className="flex flex-col gap-16 w-full">
           {/* ✅ Title */}
-          <h4 className="text-[28px] sm:text-[56px] font-bold text-[#0b100f] text-center md:text-left">
+          <h4 className="text-[28px] sm:text-[56px] font-title font-bold text-[#0b100f] text-center md:text-left">
             {data?.title}
           </h4>
 
@@ -91,8 +91,8 @@ const EnterpriseChoose = ({ data }) => {
                   index === 0 ? "md:border-none md:pl-0" : ""
                 }`}
               >
-                <p className="text-[24px] font-semibold">{item.title}</p>
-                <p className="text-[16px] whitespace-pre-line leading-relaxed">
+                <p className="text-[24px] font-subtitle font-semibold">{item.title}</p>
+                <p className="text-[16px] font-subtitle whitespace-pre-line leading-relaxed">
                   {item.description}
                 </p>
               </div>

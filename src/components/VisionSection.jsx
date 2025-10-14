@@ -122,19 +122,19 @@ export default function HeroFlowState({data}) {
           <div className="flex h-full flex-col items-center justify-center">
             <div className="z-30 flex flex-col items-start justify-center gap-8 xl:flex-row xl:items-start xl:justify-between">
               {/* Left: Headline */}
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#1B1B1B] xl:flex-1 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-title font-bold text-[#1B1B1B] xl:flex-1 leading-tight">
                  {data.title}
               </h1>
 
               {/* Right: Text + CTA */}
               <div className="z-30 flex max-w-[550px] flex-col gap-12 xl:flex-1">
-                <p className="border-l-2 border-[#3E3C4A] pl-3 text-base md:text-xl text-[#1B1B1B]">
+                <p className="border-l-2 font-subtitle border-[#3E3C4A] pl-3 text-base md:text-xl text-[#1B1B1B]">
                 {data.subTitle}
                 </p>
 
                 {/* CTA Buttons */}
                 <div className="z-10 flex flex-col items-center justify-between gap-8 xl:flex-row xl:gap-2">
-                  <Link href="/aboutUs" className="inline-flex items-center justify-center gap-3 bg-[#00F6D2] text-[#1B1B1B] hover:bg-[#4FFFF3] font-medium leading-6 px-6 py-4 text-base md:text-lg rounded-[2px] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-4 focus-visible:ring-[#00E1C4] w-full md:w-auto">
+                  <Link href="/aboutUs" className="inline-flex font-subtitle font-semibold items-center justify-center gap-3 bg-[#00F6D2] text-[#1B1B1B] hover:bg-[#4FFFF3] font-medium leading-6 px-6 py-4 text-base md:text-lg rounded-[2px] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-4 focus-visible:ring-[#00E1C4] w-full md:w-auto">
                    
                      Learn About Our Vision
                   </Link>
