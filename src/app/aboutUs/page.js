@@ -18,17 +18,17 @@ const About = () => {
   return (
    <>
    <MissionHero/>
-   {/* <ProblemSection /> */}
-   <VisionSection data={visionDataAbout}/>
+   <ProblemSection />
+   {/* <VisionSection data={visionDataAbout}/> */}
    <SolutionSection />
-   {/* <BuildingSection /> */}
-   <EnterpriseChoose data={buildingData}/>
-   {/* <WhyExistSection />
-   <WhyNowSection /> */}
+   <BuildingSection />
+   {/* <EnterpriseChoose data={buildingData}/> */}
+   <WhyExistSection />
+   <WhyNowSection />
    <FounderSection />
-   {/* <PrinciplesSection />
+   <PrinciplesSection />
    <SystemVisionSection />
-   <WorkWithUsSection /> */}
+   <WorkWithUsSection />
    <ClosingStatementSection />
    </>
   )
