@@ -156,7 +156,7 @@ export default function Careers() {
       className="relative z-0 bg-sk-white py-36 text-sk-black"
     >
       <div className="mx-auto flex max-w-7xl flex-col gap-16 px-5">
-        <h1 className="text-5xl font-semibold text-center">Open Positions</h1>
+        <h1 className="text-5xl font-semibold text-center font-title">Open Positions</h1>
 
         {/* Filters */}
         {/* <div className="flex flex-wrap gap-4 justify-between bg-[#f6eede] p-6 rounded-md">
@@ -166,7 +166,7 @@ export default function Careers() {
               onChange={(e) =>
                 setFilters({ ...filters, department: e.target.value })
               }
-              className="rounded-md border border-gray-300 px-3 py-2"
+              className="rounded-md border-0 bg-white px-3 py-2"
             >
               <option value="">All Departments</option>
               {departments.map((dep) => (
@@ -181,7 +181,7 @@ export default function Careers() {
               onChange={(e) =>
                 setFilters({ ...filters, location: e.target.value })
               }
-              className="rounded-md border border-gray-300 px-3 py-2"
+              className="rounded-md border-0 bg-white px-4 py-2"
             >
               <option value="">All Locations</option>
               {locations.map((loc) => (
@@ -208,7 +208,7 @@ export default function Careers() {
         </div> */}
 
         {/* Job List */}
-        <div className="grid w-full mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mt-6">
+        <div className="flex w-full mx-auto max-w-2xl flex-col gap-16 mt-6">
           {filteredJobs.map((job) => (
             <button
               key={job.id}
@@ -216,8 +216,8 @@ export default function Careers() {
               className="flex flex-col gap-4 rounded-lg bg-sk-sand p-4 md:flex-row md:items-center md:justify-between hover:bg-black/5 focus:outline-none focus:ring-1 focus:ring-sk-aqua"
             >
               <div className="flex flex-col gap-1 md:gap-0">
-                <h3 className="body1 font-medium">{job.title}</h3>
-                <div className="body2 opacity-50">
+                <h3 className="body1 font-semibold font-subtitle">{job.title}</h3>
+                <div className="body2 opacity-50 font-subtitle">
                   {job.location} <span className="mx-2">•</span> {job.type}
                 </div>
               </div>
@@ -263,23 +263,23 @@ export default function Careers() {
                     d="M10.25 6.75 4.75 12l5.5 5.25M19.25 12H5"
                   ></path>
                 </svg>
-                <span>Back</span>
+                <span className="font-subtitle">Back</span>
               </a>
 
               {/* Header */}
               <div className="flex flex-col gap-3 mb-6">
                 <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-3">
-                  <div className="heading5">{selectedJob.title}</div>
+                  <div className="heading5 font-title font-semibold">{selectedJob.title}</div>
                   <a
                     href={``}
                     className="ml-0 md:ml-3"
                   >
-                    <button className="bg-[#00F5D4] text-sk-black px-6 py-4 rounded-[2px] hover:bg-sk-aqua-tint w-full md:w-fit">
+                    <button className="bg-[#00F5D4] font-subtitle font-semibold text-sk-black px-6 py-4 rounded-[2px] hover:bg-sk-aqua-tint w-full md:w-fit">
                       Apply Now
                     </button>
                   </a>
                 </div>
-                <div className="body1 flex flex-col justify-between gap-2 opacity-50 sm:flex-row">
+                <div className="body1 font-subtitle flex flex-col justify-between gap-2 opacity-50 sm:flex-row">
                   <span>{selectedJob.location}</span>
                   {selectedJob.duration && (
                     <>
@@ -293,7 +293,7 @@ export default function Careers() {
               </div>
 
               {/* Job description */}
-              <div className="prose max-w-full">
+              <div className="prose max-w-full font-subtitle font-semibold">
                 {selectedJob.description
                   .split("\n")
                   .map((line, idx) =>
@@ -303,7 +303,7 @@ export default function Careers() {
 
               {/* Bottom Apply button */}
               <a href={``}>
-                <button className="mt-6 bg-[#00F5D4] text-sk-black px-6 py-4 rounded-[2px] hover:bg-sk-aqua-tint w-full md:w-fit">
+                <button className="mt-6 font-subtitle font-semibold bg-[#00F5D4] text-sk-black px-6 py-4 rounded-[2px] hover:bg-sk-aqua-tint w-full md:w-fit">
                   Apply Now
                 </button>
               </a>

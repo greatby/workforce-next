@@ -31,19 +31,19 @@ export default function AboutHero() {
         ></div>
 
         <div className="flex h-full flex-col items-center justify-center gap-16 px-5">
-          <h1 className="text-4xl z-20">Our Mission</h1>
+          <h1 className="text-4xl font-semibold font-title z-20">Our Mission</h1>
           <div className="z-20 flex max-w-xl flex-col gap-8 text-center">
-            <p className="text-xl text-pretty">
+            <p className="text-xl text-pretty font-subtitle">
               Workforce is building the Regulatory Execution Engine — the
               invisible layer that connects law to execution, regulation to
               technology, and governance to growth.
             </p>
-            <p className="text-xl text-pretty">
+            <p className="text-xl text-pretty font-subtitle">
               Every economy runs on rules. But no one ever built the system that
               makes those rules work. We are changing that — by turning every
               Act, license, and workflow into a living, executable system.
             </p>
-            <p className="text-xl text-pretty">
+            <p className="text-xl text-pretty font-subtitle">
               If you’ve ever looked at chaos and thought “this could run better”
               — welcome home.
             </p>
@@ -55,17 +55,17 @@ export default function AboutHero() {
       <div className="relative z-20 overflow-hidden pb-20 pt-24 text-sk-black">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-16 px-5">
           <div className="flex max-w-xl flex-col items-center gap-8 text-center">
-            <p className="text-xl text-pretty">
+            <p className="text-xl text-pretty font-subtitle">
               India’s regulatory fabric is one of the most complex in the world.
               36 states, 100+ Acts, 5,000+ departments — and no unified
               execution layer.
             </p>
-            <p className="text-xl text-pretty">
+            <p className="text-xl text-pretty font-subtitle">
               Workforce is mapping, codifying, and operating this infrastructure
               from the ground up. We’re not simplifying compliance — we’re
               engineering governance.
             </p>
-            <p className="text-xl text-pretty">
+            <p className="text-xl text-pretty font-subtitle">
               This is not a corporate job. This is nation-building through
               precision - <span className="font-semibold">Workforce.</span>
             </p>

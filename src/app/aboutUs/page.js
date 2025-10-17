@@ -14,6 +14,23 @@ import VisionSection from "@/components/VisionSection";
 import { buildingData, visionDataAbout } from '@/utils/data'
 import React from 'react'
 
+export const metadata = {
+  title: "About Us | Workforce - The Execution Layer of Law",
+  description:
+    "India operates under 100+ employment acts across 36 states. Every enterprise must comply. Yet compliance itself—the machinery of registration, filing, and closure—remains manual, fragmented, and opaque.",
+  alternates: {
+    canonical: "https://workforce.com/aboutUs",
+  },
+  openGraph: {
+    title: "About Us | Workforce - The Execution Layer of Law",
+    description:
+      "India operates under 100+ employment acts across 36 states. Every enterprise must comply. Yet compliance itself—the machinery of registration, filing, and closure—remains manual, fragmented, and opaque.",
+    url: "https://workforce.com/aboutUs",
+    siteName: "Workforce",
+    type: "website",
+  },
+};
+
 const About = () => {
   return (
    <>

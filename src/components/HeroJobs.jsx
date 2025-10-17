@@ -23,16 +23,16 @@ const HeroJobs = () => {
 
       <div className="mx-auto flex flex-col items-center gap-16">
         {/* Heading */}
-        <h1 className="text-center max-w-lg px-5 text-3xl font-semibold md:max-w-3xl md:text-5xl">
+        <h1 className="text-center max-w-lg px-5 font-title text-3xl font-semibold md:max-w-3xl md:text-5xl">
           Join Workforce
         </h1>
-        <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-center text-gray-100 max-w-3xl mx-auto px-4">
+        <p className="text-base font-subtitle sm:text-lg md:text-xl lg:text-2xl text-center text-gray-100 max-w-3xl mx-auto px-4">
          Where Law Becomes Code. Where Compliance Becomes Infrastructure.
         </p>
 
         {/* CTA Button */}
         <a href="">
-          <button  onClick={handleScrollToPositions} className="cursor-pointer whitespace-nowrap font-medium leading-6 transition-colors inline-flex items-center justify-center gap-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-4 disabled:pointer-events-none bg-[#00F5D4] text-black hover:bg-[#5BF5DE] focus-visible:ring-offset-[#0085FF] focus-visible:ring-[#00F5D4] disabled:opacity-30 w-full md:min-w-[15rem] md:w-fit px-6 py-4 text-base md:text-lg rounded-[2px]">
+          <button  onClick={handleScrollToPositions} className="cursor-pointer font-subtitle whitespace-nowrap font-medium leading-6 transition-colors inline-flex items-center justify-center gap-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-4 disabled:pointer-events-none bg-[#00F5D4] text-black hover:bg-[#5BF5DE] focus-visible:ring-offset-[#0085FF] focus-visible:ring-[#00F5D4] disabled:opacity-30 w-full md:min-w-[15rem] md:w-fit px-6 py-4 text-base md:text-lg rounded-[2px]">
             View Open Positions
           </button>
         </a>
