@@ -2,35 +2,7 @@
 import { useState } from "react";
 import { FiPlus, FiMinus } from "react-icons/fi";
 
-const faqs = [
-  {
-    question: "Are you a consultancy or a platform?",
-    answer:
-      "We’re an execution engine with field ops.",
-  },
-  {
-    question: "Do you cover my state/industry?",
-    answer:
-      "Yes—36 states & UTs, 30+ industries.",
-  },
-  {
-    question: "Can you handle inspections & physical submissions?",
-    answer:
-      "Yes—verified liaison network.",
-  },
-  {
-    question: "How do renewals work?",
-    answer:
-      "Auto-tracked, pre-filed, fee-paid with approvals logged.",
-  },
-  {
-    question: "How is this different from a CA?",
-    answer:
-      "CAs handle finance & audit; Workforce runs regulatory, licensing, labour, safety, environment.",
-  },
-];
-
-export default function FAQAccordion() {
+export default function FAQAccordion({ faqs }) {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleFAQ = (index) => {
@@ -60,7 +32,9 @@ export default function FAQAccordion() {
               </button>
               <div
                 className={`overflow-hidden transition-all duration-300 ${
-                  openIndex === index ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
+                  openIndex === index
+                    ? "max-h-40 opacity-100"
+                    : "max-h-0 opacity-0"
                 }`}
               >
                 <p className="text-gray-300 pb-6">{faq.answer}</p>
@@ -72,4 +46,3 @@ export default function FAQAccordion() {
     </section>
   );
 }
-

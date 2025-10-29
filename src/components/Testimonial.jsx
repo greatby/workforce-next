@@ -193,7 +193,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
-export default function CaseStudyTestimonials() {
+export default function CaseStudyTestimonials({data}) {
   const scrollRef = useRef(null);
   const [visibleCards, setVisibleCards] = useState([]);
 
@@ -248,81 +248,7 @@ export default function CaseStudyTestimonials() {
     return () => observer.disconnect();
   }, []);
 
-const testimonials = [
-  {
-    quote: "Monthly Statutory Compliance",
-    role: `EPF, ESIC, Professional Tax, Labour Welfare Fund—filed automatically before
-every deadline. We handle contribution calculations, challan generation, return filing, and
-payment tracking across all your locations and entities.`,
-    bg: "bg-[#D3F2EF]",
-    outline:
-      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
-    gradient:
-      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
-    logo: "https://windsurf.com/logo/external-logos/jpmorgan_chase_logo.svg",
-  },
-  {
-    quote: "Registrations & Licenses",
-    role: `When you expand to a new state, open a factory, or cross employee thresholds, we
-execute every registration—EPF, ESIC, Factories Act, Shops & Establishments, Contract
-Labour. You focus on operations. We secure every license before you need it.`,
-    bg: "bg-[#D3F2EF]",
-    outline:
-      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_1.svg')",
-    gradient:
-      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_1.svg')",
-    logo: "https://windsurf.com/logo/external-logos/mercado_libre_logo.svg",
-  },
 
-  {
-    quote: "Clean Closures & Exits",
-    role: `Shutting down a unit? Restructuring? Workforce executes complete employment law
-closure—EPF, ESIC, Factories, Contract Labour, Shops & Establishments—in 30 days.
-Zero penalties. Zero disputes. Clean exit guaranteed.`,
-    bg: "bg-[#D3F2EF]",
-    outline:
-      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_2.svg')",
-    gradient:
-      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_2.svg')",
-    logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
-  },
-  {
-    quote: "Multi-State Expansion",
-    role: `Open a new location in any of India's 36 states without worrying about local labour
-codes. We map state-specific requirements, execute registrations, and maintain ongoing
-compliance—so geography never limits your growth.`,
-    bg: "bg-[#D3F2EF]",
-    outline:
-      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_3.svg')",
-    gradient:
-      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_3.svg')",
-    logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
-  },
-  {
-    quote: "Real-Time Regulatory Intelligence",
-    role: `Labour laws change constantly—new circulars, rate revisions, form updates,
-deadline shifts. We capture every change the day it's published and apply it to your
-operations automatically. You're always compliant, never caught off-guard.`,
-    bg: "bg-[#D3F2EF]",
-    outline:
-      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_0.svg')",
-    gradient:
-      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_0.svg')",
-    logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
-  },
-  {
-    quote: "Audit & Inspection Support",
-    role: `When labour inspectors arrive or statutory audits begin, we provide complete
-documentation, represent your compliance posture, and resolve any discrepancies. Your
-operations continue undisrupted.`,
-    bg: "bg-[#D3F2EF]",
-    outline:
-      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/outline_1.svg')",
-    gradient:
-      "url('https://exafunction.github.io/public/images/waves/case_study/aqua_waves/gradient_1.svg')",
-    logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
-  },
-];
 
   return (
     <section className="bg-white py-24 md:py-44">
@@ -330,7 +256,7 @@ operations continue undisrupted.`,
         {/* Header */}
         <div className="flex items-center justify-between mb-10">
           <h2 className="text-2xl font-title font-semibold md:text-4xl">
-            What We Execute for You
+         {data?.title}
           </h2>
           <div className="hidden md:flex gap-4">
             <button
@@ -363,7 +289,7 @@ operations continue undisrupted.`,
           ref={scrollRef}
           className="flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 md:pb-0 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
         >
-          {testimonials.map((t, i) => {
+          {data?.cards?.map((t, i) => {
             const isVisible = visibleCards.includes(i);
 
             return (

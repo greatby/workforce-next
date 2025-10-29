@@ -2,27 +2,23 @@
 
 import React from "react";
 
-const ContactWorkforce = () => {
+const ContactWorkforce = ({data}) => {
   return (
     <section className="flex flex-col items-center justify-center bg-[#011c42] border-b-[1px] border-white/40">
       <section className="mx-auto mt-20 flex w-full flex-col items-center justify-center px-3 pb-20">
         {/* Caption */}
         <p className="leading-trim-both caption3 mb-6 font-navbar font-medium uppercase text-[#fb9ce5]">
-          [Ready to Remove Compliance from Your Critical Path?]
+          [{data?.title}]
         </p>
 
         {/* Heading for Desktop */}
         <h5 className="text-[40px] font-title hidden max-w-[700px] text-center text-white sm:block">
-          Whether you're scaling across states, managing monthly compliance, or
-          closing a unit—Workforce executes India's employment law so you can
-          focus on building.
+         {data?.subTitle}
         </h5>
 
         {/* Heading for Mobile */}
         <p className="heading3 font-title p-5 text-center text-white sm:hidden">
-          Whether you're scaling across states, managing monthly compliance, or
-          closing a unit—Workforce executes India's employment law so you can
-          focus on building.
+        {data?.subTitle}
         </p>
 
         {/* Buttons */}

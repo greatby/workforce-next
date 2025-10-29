@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const base = "https://workforce.com";
+  const base = "https:// wflimited.com";
   return [
     {
       url: `${base}/`,
