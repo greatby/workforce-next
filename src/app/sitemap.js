@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const base = "https:// wflimited.com";
+  const base = "https://wflimited.com";
   return [
     {
       url: `${base}/`,
@@ -11,13 +11,31 @@ export default function sitemap() {
       url: `${base}/jobs`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.9,
+      priority: 0.8,
     },
     {
       url: `${base}/aboutUs`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.7,
+    },
+    {
+      url: `${base}/contract-labour-consultant-bangalore`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+      {
+      url: `${base}/labour-lawyer-bangalore`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+     {
+      url: `${base}/shops-establishment-registration-bangalore`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
     },
   ];
 }
