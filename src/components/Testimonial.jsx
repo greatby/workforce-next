@@ -321,7 +321,7 @@ export default function CaseStudyTestimonials({data}) {
                     {t.quote}
                   </p>
                   <div className="flex items-center gap-4 mt-6">
-                    <div className="w-42 h-42 rounded-lg">
+                    <div className="w-82 h-82 rounded-lg">
                       <img
                         src={t.logo}
                         alt="logo"

@@ -106,8 +106,8 @@ export const partnerData = {
 };
 
 export const heroData = {
-  title: "India's Employment Law Infrastructure",
-  subTitle: `Every companies operates on regulation. We are building the system that executes it. From the EPF to the Factories Act, across every state, every industry. Compliance that works for you. This is the system that India scales on.`,
+  title: "The Operating System for India's Workforce",
+  subTitle: `We build the infrastructure that lets companies focus on growth, not compliance. Every payroll cycle in India involves 47 regulatory checkpoints. Every hire creates 12 statutory obligations. Every state has different labour codes. We've automated all of it.`,
 };
 
 export const visionData = {
@@ -121,52 +121,52 @@ export const visionDataAbout = {
 };
 
 export const enterpriseData = {
-  title: "Law as a Living System",
+  title: "Our Approach: First-Principles Engineering",
   gridData: [
     {
-      title: "We Don't Automate Forms. We Orchestrate Law.",
+      title: "The Compliance Graph",
       description:
-        "Workforce transforms India’s complex labour and industrial laws into a unified, automated compliance system—turning legal frameworks into executable infrastructure that enables national-scale growth.",
+        "We've mapped the entire Indian labour law ecosystem as a dependency graph—8,200 rules, 340 state variations, updated in real-time as notifications are published. Our system doesn't check compliance. It makes non-compliance structurally impossible.",
     },
     {
-      title: "We Are the Execution Layer",
+      title: "The Verification Layer",
       description:
-        "Workforce delivers end-to-end execution of labour compliance—automating every filing, registration, and update across states and authorities. It’s not software or consulting, but execution as a service, making Indian enterprise lawful, predictable, and scalable by design.",
+        "Our compliance engine is fully AI-powered — from onboarding to final submission. It instantly validates PAN/Aadhaar, accurately scans investment proofs using advanced computer-vision models, and automatically detects wage or payroll anomalies before filings are processed. This ensures error-free documentation, faster processing, and reliable compliance every time.",
     },
     {
-      title: "From Regulatory Chaos to Operational Certainty",
-      description: `Workforce transforms compliance into a fully automated governance infrastructure—capturing every regulation, structuring it into executable intelligence, and executing every filing seamlessly. It eliminates risk and manual effort, serving as the regulated backbone of enterprise operations.`,
+      title: "The Execution Engine",
+      description: `Zero human intervention from attendance capture to bank transfer. Zero errors. Zero late filings.`,
     },
-    {
-      title: "The Scale of What We're Building",
-      description: `Workforce replaces India’s fragmented, manual compliance systems with a single intelligent execution layer that automates every filing and obligation across 36 states and 100+ labour laws—eliminating chaos and powering the backbone of India’s formal economy.`,
-    },
-    {
-      title: "The India That Runs on Workforce",
-      description: `Workforce is building the infrastructure that makes India’s economy lawful, automated, and scalable—where compliance executes itself, workers receive their due benefits, and enterprises expand without risk. Each deployment reduces chaos and strengthens the nation’s formal backbone. For investors, it’s a massive, inevitable growth layer; for companies, it’s speed without risk; and for the team, it’s a mission to code the foundation of India’s next era.`,
-    },
+    // {
+    //   title: "The Scale of What We're Building",
+    //   description: `Workforce replaces India’s fragmented, manual compliance systems with a single intelligent execution layer that automates every filing and obligation across 36 states and 100+ labour laws—eliminating chaos and powering the backbone of India’s formal economy.`,
+    // },
+    // {
+    //   title: "The India That Runs on Workforce",
+    //   description: `Workforce is building the infrastructure that makes India’s economy lawful, automated, and scalable—where compliance executes itself, workers receive their due benefits, and enterprises expand without risk. Each deployment reduces chaos and strengthens the nation’s formal backbone. For investors, it’s a massive, inevitable growth layer; for companies, it’s speed without risk; and for the team, it’s a mission to code the foundation of India’s next era.`,
+    // },
   ],
 };
 
 export const deliversData = {
-  title: "Turning Regulation into Intelligence—and Intelligence into Scale",
+  title: "Why Operators Choose Us",
   gridData: [
     {
       num: "01",
-      title: "From Red Tape to Source Code.",
-      desc: "Each filing becomes data. Timelines, rejections, inspection notes, and fees feed the Regulatory Intelligence Graph—making every future execution faster and safer.",
+      title: "For CFOs",
+      desc: "One invoice. One vendor. One compliance guarantee. No surprises at audit.",
       img: "images/gradient_0_desktop.svg",
     },
     {
       num: "02",
-      title: "Nation-Scale on Day One.",
-      desc: "36 State/UT badges + 30 Industry badges.",
+      title: "For HR Leaders",
+      desc: "Your team focuses on talent. We handle the machinery of employment law.",
       img: "images/gradient_1_desktop.svg",
     },
     {
       num: "03",
-      title: "What changes when compliance becomes infrastructure.",
-      desc: `◾ 0 missed renewals (auto-execute)\n◾ 30–60% faster approvals (sequenced filings)\n◾ 1 pane of glass (all departments, all entities)`,
+      title: "For Founders",
+      desc: `Scale headcount without scaling compliance risk. Every new state is a config change, not a project.`,
       img: "images/gradient_2_desktop.svg",
     },
     // {
@@ -490,68 +490,50 @@ export const buildingData = {
 };
 
 export const testimonialsLanding = {
-  title: "What We Execute for You?",
+  title: "What We Actually Do?",
   cards: [
     {
-      quote: "Monthly Statutory Compliance",
-      role: `EPF, ESIC, Professional Tax, Labour Welfare Fund—filed automatically before
-  every deadline. We handle contribution calculations, challan generation, return filing, and
-  payment tracking across all your locations and entities.`,
+      quote: "Algorithmic Payroll Processing",
+      role: `Our system doesn’t just process payroll—it audits every step in real time. Using statutory data, historical patterns, and automated compliance checks, it prevents invalid payrolls from ever being generated.
+
+With multi-state statutory computations, OCR-powered proof verification, real-time integrations with EPFO/ESIC/Income Tax systems, and automated filings from ECR to Form 16, the engine ensures every payout is legally accurate, optimized, and fully compliant.`,
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_0.svg')",
       gradient: "url('/images/gradient_0.svg')",
-      logo: "https://windsurf.com/logo/external-logos/jpmorgan_chase_logo.svg",
+      logo: "/images/jpmorgan_chase_logo.svg",
     },
     {
-      quote: "Registrations & Licenses",
-      role: `When you expand to a new state, open a factory, or cross employee thresholds, we
-  execute every registration—EPF, ESIC, Factories Act, Shops & Establishments, Contract
-  Labour. You focus on operations. We secure every license before you need it.`,
+      quote: "AI-Native Temp Staffing",
+      role: `We combine deep sourcing intelligence with automated onboarding and statutory-grade employer compliance—so you deploy fluid workforces without risk, paperwork, or delay. Our platform semantically matches talent at scale, digitizes every onboarding step from KYC to UAN creation, and assumes full legal employer responsibilities under CLRA and other labor laws. With real-time attendance-to-payroll pipelines, automated filings, and instant settlements, you get staffing that is fast, compliant, and operationally precise—by default.`,
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_1.svg')",
       gradient: "url('/images/gradient_1.svg')",
-      logo: "https://windsurf.com/logo/external-logos/mercado_libre_logo.svg",
+      logo: "/images/mercado_libre_logo.svg",
     },
 
     {
-      quote: "Clean Closures & Exits",
-      role: `Shutting down a unit? Restructuring? Workforce executes complete employment law
-  closure—EPF, ESIC, Factories, Contract Labour, Shops & Establishments—in 30 days.
-  Zero penalties. Zero disputes. Clean exit guaranteed.`,
+      quote: "Regulatory Intelligence & Labour Law Advisory",
+      role: `Our platform continuously monitors labour laws across states, automates establishment-level compliance, and embeds statutory workflows into your day-to-day operations. From minimum wage updates to POSH governance to industrial relations and litigation defense, every requirement is tracked, verified, and executed with precision.`,
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_2.svg')",
       gradient: "url('/images/gradient_2.svg')",
-      logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+      logo: "/images/athena_logo.svg",
     },
     {
-      quote: "Multi-State Expansion",
-      role: `Open a new location in any of India's 36 states without worrying about local labour
-  codes. We map state-specific requirements, execute registrations, and maintain ongoing
-  compliance—so geography never limits your growth.`,
+      quote: "The AI Systems",
+      role: `Our Compliance Neural Network—trained on a decade of labour data and case law—anticipates risks with exceptional accuracy. Advanced document intelligence automates proof verification and onboarding checks, while anomaly-detection models scan payroll and attendance patterns to catch wage deviations, ghost employees, and statutory mismatches before they turn into violations.`,
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_3.svg')",
       gradient: "url('/images/gradient_3.svg')",
-      logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+      logo: "/images/athena_logo.svg",
     },
     {
-      quote: "Real-Time Regulatory Intelligence",
-      role: `Labour laws change constantly—new circulars, rate revisions, form updates,
-  deadline shifts. We capture every change the day it's published and apply it to your
-  operations automatically. You're always compliant, never caught off-guard.`,
+      quote: "The Integration Layer",
+      role: `With direct banking integrations, real-time government API access, plug-and-play HRMS connectors, and support for 50+ biometric devices, our platform seamlessly links disbursements, statutory filings, attendance, and workforce data into one coherent flow. No manual uploads. No broken systems. Just a fully connected compliance infrastructure end-to-end.`,
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_0.svg')",
       gradient: "url('/images/gradient_0.svg')",
-      logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
-    },
-    {
-      quote: "Audit & Inspection Support",
-      role: `When labour inspectors arrive or statutory audits begin, we provide complete
-  documentation, represent your compliance posture, and resolve any discrepancies. Your
-  operations continue undisrupted.`,
-      bg: "bg-[#D3F2EF]",
-      outline: "url('/images/outline_1.svg')",
-      gradient: "url('/images/gradient_1.svg')",
-      logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+      logo: "/images/athena_logo.svg",
     },
   ],
 };
@@ -598,7 +580,7 @@ export const testimonialsLabourLawyer = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_0.svg')",
       gradient: "url('/images/gradient_0.svg')",
-      logo: "https://windsurf.com/logo/external-logos/jpmorgan_chase_logo.svg",
+      logo: "/images/jpmorgan_chase_logo.svg",
     },
     {
       quote: "Labour Law Specialists",
@@ -606,7 +588,7 @@ export const testimonialsLabourLawyer = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_1.svg')",
       gradient: "url('/images/gradient_1.svg')",
-      logo: "https://windsurf.com/logo/external-logos/mercado_libre_logo.svg",
+      logo: "/images/mercado_libre_logo.svg",
     },
 
     {
@@ -615,7 +597,7 @@ export const testimonialsLabourLawyer = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_2.svg')",
       gradient: "url('/images/gradient_2.svg')",
-      logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+      logo: "/images/athena_logo.svg",
     },
     {
       quote: "Statutory Compliance Defense",
@@ -623,7 +605,7 @@ export const testimonialsLabourLawyer = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_3.svg')",
       gradient: "url('/images/gradient_3.svg')",
-      logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+      logo: "/images/athena_logo.svg",
     },
     {
       quote: "Employee Relations",
@@ -631,7 +613,7 @@ export const testimonialsLabourLawyer = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_0.svg')",
       gradient: "url('/images/gradient_0.svg')",
-      logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+      logo: "/images/athena_logo.svg",
     },
     {
       quote: "Contractor & Vendor Disputes",
@@ -639,7 +621,7 @@ export const testimonialsLabourLawyer = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_1.svg')",
       gradient: "url('/images/gradient_1.svg')",
-      logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+      logo: "/images/athena_logo.svg",
     },
     {
       quote: "Risk Management",
@@ -647,16 +629,14 @@ export const testimonialsLabourLawyer = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_2.svg')",
       gradient: "url('/images/gradient_2.svg')",
-      logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+      logo: "/images/athena_logo.svg",
     },
   ],
 };
 
 export const closureSectionLanding = {
-  title: "Ready to Remove Compliance from Your Critical Path?",
-  subTitle: `Whether you're scaling across states, managing monthly compliance, or
-          closing a unit—Workforce executes India's employment law so you can
-          focus on building.`,
+  title: "Zero statutory penalties",
+  subTitle: `If any PF, ESIC, or labour law penalty arises from our processing error, we pay it. That's not confidence—that's engineering.`,
 };
 export const closureSectionLabourLawyer = {
   title: "Received a Labour Notice? Don't Wait. Call Now.",
@@ -751,7 +731,7 @@ export const testimonialsContractLabour = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_0.svg')",
       gradient: "url('/images/gradient_0.svg')",
-      logo: "https://windsurf.com/logo/external-logos/jpmorgan_chase_logo.svg",
+      logo: "/images/jpmorgan_chase_logo.svg",
     },
     {
       quote: "One-Time Services",
@@ -759,7 +739,7 @@ export const testimonialsContractLabour = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_1.svg')",
       gradient: "url('/images/gradient_1.svg')",
-      logo: "https://windsurf.com/logo/external-logos/mercado_libre_logo.svg",
+      logo: "/images/mercado_libre_logo.svg",
     },
     {
       quote: "Crisis Services",
@@ -767,7 +747,7 @@ export const testimonialsContractLabour = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_2.svg')",
       gradient: "url('/images/gradient_2.svg')",
-      logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+      logo: "/images/athena_logo.svg",
     },
   ],
 };
@@ -908,7 +888,7 @@ export const testimonialsShopEstablishment = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_0.svg')",
       gradient: "url('/images/gradient_0.svg')",
-      logo: "https://windsurf.com/logo/external-logos/jpmorgan_chase_logo.svg",
+      logo: "/images/jpmorgan_chase_logo.svg",
     },
     {
       quote: "Exceptions",
@@ -916,7 +896,7 @@ export const testimonialsShopEstablishment = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_1.svg')",
       gradient: "url('/images/gradient_1.svg')",
-      logo: "https://windsurf.com/logo/external-logos/mercado_libre_logo.svg",
+      logo: "/images/mercado_libre_logo.svg",
     },
     {
       quote: "The Process",
@@ -924,7 +904,7 @@ export const testimonialsShopEstablishment = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_2.svg')",
       gradient: "url('/images/gradient_2.svg')",
-      logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+      logo: "/images/athena_logo.svg",
     },
     {
       quote: "Where Businesses Get Stuck",
@@ -932,15 +912,15 @@ export const testimonialsShopEstablishment = {
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_3.svg')",
       gradient: "url('/images/gradient_3.svg')",
-      logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+      logo: "/images/athena_logo.svg",
     },
-     {
+    {
       quote: "How We Ensure 3-Day Registration",
       role: `Our team handles everything end-to-end — from preparing documents in the correct format to error-free portal submission and direct follow-ups with the labour department — ensuring your registration is completed within 3 days.`,
       bg: "bg-[#D3F2EF]",
       outline: "url('/images/outline_0.svg')",
       gradient: "url('/images/gradient_0.svg')",
-      logo: "https://windsurf.com/logo/external-logos/athena_logo.svg",
+      logo: "/images/athena_logo.svg",
     },
   ],
 };
@@ -1035,3 +1015,284 @@ export const faqsShopsEstablishment = [
       "Yes. Karnataka’s Labour Department portal allows fully online registration for Bangalore and all other cities or towns across the state.",
   },
 ];
+
+export const heroDataTempstaffing = {
+  title: "AI-Native Temp Staffing Infrastructure",
+  subTitle: `The modern enterprise doesn't need permanent armies—it needs surgical deployment of talent exactly when and where business demands it. We've built the operating system for that reality.`,
+};
+
+export const enterpriseDatatempstaffing = {
+  title: "How It Works",
+  gridData: [
+    {
+      title: "Stage 1: Requirement Intelligence",
+      description:
+        "Our LLM-powered engine breaks down every job description into core skills, implied capabilities, and cultural indicators, then maps it against market data and compensation realities. It automatically generates an optimized sourcing plan—choosing the right channels, timing, and role variations—so you don’t just post a job, you launch a fully intelligent deployment plan.",
+    },
+    {
+      title: "Stage 2: Candidate Sourcing & Matching",
+      description:
+        "Our matching system ingests tens of thousands of profiles from portals, referrals, and historical applicants, then uses semantic skill graphs—not keyword filters—to identify the strongest fits, including adjacent roles that can transition seamlessly. Candidates are scored across skills, experience, geography, availability, and compensation fit, producing an explainable shortlist in minutes.",
+    },
+    {
+      title: "Stage 3: Digital Onboarding Pipeline",
+      description: `From Aadhaar/PAN verification to appointment letters, UAN/ESIC generation, and bank validation, every step is automated through direct government API integrations. Candidates complete identity checks, statutory registrations, and operational setup entirely through their phone—no paperwork, no site visits, and no manual data entry. The result: compliant, deployment-ready staff within hours, not days.`,
+    },
+    {
+      title: "Stage 4: Lifecycle Management",
+      description: `Our system captures attendance through biometrics, geo-fenced mobility, or web login, then validates every punch in real time to prevent false logs, location mismatches, and overtime violations. This flows directly into payroll, where wages, statutory deductions, arrears, and bank transfers are processed with the same precision as permanent employees.`,
+    },
+    {
+      title: "Stage 5: Compliance Shield (CLRA Management)",
+      description: `Under CLRA, most companies unknowingly inherit liability for their contractors. We eliminate that exposure by becoming the statutory employer—holding the licenses, filing every return, managing inspections, and maintaining all registers. With multi-state CLRA coverage, proactive renewal tracking, and full indemnification, your contractor operations stay fully compliant while the legal responsibility shifts entirely to us.`,
+    },
+    {
+      title: "Stage 6: Exit & Transition Management",
+      description: `Our platform automates every step of contractor separation—from digital exit initiation and asset clearance to PF/ESIC updates and final payout calculations. Within a day, all dues are settled, statutory forms (including Form 10D and CLRA-mandated certificates) are issued, and government records are updated. The result: clean transitions, zero backlog, and fully compliant offboarding at enterprise scale.`,
+    },
+  ],
+};
+
+export const testimonialsTempstaffing = {
+  title: "The AI Systems & Solutions",
+  cards: [
+    {
+      quote: "Churn Prediction Model",
+      role: `Our churn prediction model analyzes commute distance, job history, compensation alignment, early attendance patterns, and peer-group signals to forecast which contractors are at risk of leaving. When a risk score crosses the threshold, the system triggers proactive interventions—from manager check-ins to role or compensation adjustments.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_0.svg')",
+      gradient: "url('/images/gradient_0.svg')",
+      logo: "/images/jpmorgan_chase_logo.svg",
+    },
+    {
+      quote: "Demand Forecasting Engine",
+      role: `Our demand forecasting engine analyzes historical hiring patterns, seasonal trends, and external market signals to predict staffing requirements up to 60 days in advance. This allows us to build talent pools early, lock in better rates, and ensure smooth, on-time deployments—even during peak seasons.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_1.svg')",
+      gradient: "url('/images/gradient_1.svg')",
+      logo: "/images/mercado_libre_logo.svg",
+    },
+
+    {
+      quote: "Integration & Data Access",
+      role: `Clients get a real-time command center showing active deployments, attendance trends, costs, compliance status, and operational KPIs. Every license, renewal, filing, and audit-ready report is instantly accessible, while performance metrics—from time-to-fill to retention and NPS—keep you in control of service quality.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_2.svg')",
+      gradient: "url('/images/gradient_2.svg')",
+      logo: "/images/athena_logo.svg",
+    },
+    {
+      quote: "Industry-Specific Solutions",
+      role: `We deploy fully compliant, job-ready teams across manufacturing, retail, logistics, and facility management—each supported by domain-specific workflows. From safety and shift rostering in factories to seasonal scaling in retail, GPS-enabled tracking for delivery roles, and police verification for security staff, our platform adapts to the unique compliance and performance demands of every sector.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_3.svg')",
+      gradient: "url('/images/gradient_3.svg')",
+      logo: "/images/athena_logo.svg",
+    },
+  ],
+};
+
+
+export const closureSectionTempstaffing = {
+  title: "Where Staffing Ends and Workforce Infrastructure Begins.",
+  subTitle: `This isn't temp staffing. It's workforce infrastructure you can scale on.`,
+};
+
+export const heroDataPayroll = {
+  title: "Payroll Processing Engine",
+  subTitle: `Indian payroll isn't data entry—it's a real-time compliance verification system operating under regulatory constraints that change monthly. We've built the infrastructure to handle this at scale.`,
+};
+
+export const enterpriseDataPayroll = {
+  title: "How It Works",
+  gridData: [
+    {
+      title: "Stage 1: Pre-Payroll Intelligence",
+      description:
+        "Our pre-payroll intelligence layer audits every input—attendance, wage structure, minimum wage compliance, PF/ESIC rules, PT slabs, and arrears logic—before any calculation begins. It automatically flags inconsistencies like incorrect PF caps, wrong PT slabs, or wages below statutory thresholds, and prevents the payroll run until issues are resolved.",
+    },
+    {
+      title: "Stage 2: The Calculation Engine",
+      description:
+        "Our multi-threaded calculation system processes thousands of employees in minutes, applying every PF, ESIC, TDS, PT, and LWF rule with absolute accuracy. It auto-detects wage thresholds, applies state-wise slabs, manages exemptions, handles investment declarations, and generates all statutory splits—from PF pension components to ESIC dispensary mapping—without manual intervention.",
+    },
+    {
+      title: "Stage 3: The Verification Protocol",
+      description: `Every payroll run is subjected to legal checks, anomaly detection, peer benchmarking, and full banking validation—including IFSC and NPCI name matching—before a single rupee is released. The workflow concludes with a digital approval trail, ensuring complete auditability and zero-risk disbursement.`,
+    },
+    {
+      title: "Stage 4: Disbursement & Documentation",
+      description: `Payments are executed through automated NEFT/RTGS bank files, batch-processed to prevent timeouts and backed by smart retry logic for failed transactions. Employees receive real-time SMS/email confirmations, while finance teams get full visibility through a live tracking dashboard.`,
+    },
+    {
+      title: "Stage 5: Post-Payroll Compliance",
+      description: `Once salaries are processed, the system takes over all monthly, quarterly, and annual obligations: PF ECR uploads, ESIC filings, PT payments, TDS challans, quarterly 24Q returns, and annual Form 16/12BA preparation. Every submission is generated, validated, and filed without manual intervention, ensuring your organization stays audit-ready and fully compliant across all statutory bodies.`,
+    },
+   
+  ],
+};
+
+export const testimonialsPayroll = {
+  title: "The AI Advantage",
+  cards: [
+    {
+      quote: "Investment Proof Verification (The Hardest Problem)",
+      role: `Our computer-vision engine replaces weeks of manual document checking with automated classification, data extraction, authenticity validation, and cross-matching against employee declarations. It flags mismatches instantly and notifies employees with precise rejection reasons. Resulting in sub-5-second processing, 98.7% accuracy, and an 85% reduction in HR workload`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_0.svg')",
+      gradient: "url('/images/gradient_0.svg')",
+      logo: "/images/jpmorgan_chase_logo.svg",
+    },
+    {
+      quote: "Anomaly Detection Neural Network",
+      role: `Our anomaly detection neural network—trained on multi-industry payroll patterns—identifies irregularities like unexplained salary spikes, impossible attendance, inconsistent overtime, under-deductions, and even ghost employees. By cross-checking financial, attendance, and identity signals, it flags hidden risks early and prevents revenue leakage. Resulting in fraud eliminated, compliance strengthened, and significant annual savings for enterprises.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_1.svg')",
+      gradient: "url('/images/gradient_1.svg')",
+      logo: "/images/mercado_libre_logo.svg",
+    },
+
+    {
+      quote: "Integration Ecosystem",
+      role: `A plug-and-play integration layer that enhances your existing HRMS—not replaces it.
+We connect seamlessly with leading HR platforms like SAP SuccessFactors, Workday, Oracle HCM, Darwinbox, Keka, and greytHR through pre-built connectors. Our REST APIs enable real-time attendance sync, employee master updates, and automated payroll triggers with full documentation and a sandbox for testing.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_2.svg')",
+      gradient: "url('/images/gradient_2.svg')",
+      logo: "/images/athena_logo.svg",
+    },
+    {
+      quote: "Security & Compliance",
+      role: `Our platform operates on SOC 2 Type II–certified infrastructure with India-based data residency, AES-256 encryption, TLS 1.3 transport security, and strict role-based access controls. All statutory submissions use Digital Signature Certificates, records comply with the IT Act 2000, and multinational clients benefit from GDPR-equivalent data governance.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_3.svg')",
+      gradient: "url('/images/gradient_3.svg')",
+      logo: "/images/athena_logo.svg",
+    },
+  ],
+};
+
+export const deliversDataPayroll = {
+  title: "Implementation Timeline",
+  gridData: [
+    {
+      num: "01",
+      title: "Week 1: Discovery & Setup",
+      desc: "We begin with a full audit of your existing payroll, map and validate all employee and attendance data, and provision secure role-based access for every stakeholder. This ensures the system is aligned with your structure, compliant from day one, and ready for parallel run.",
+      img: "images/gradient_0_desktop.svg",
+    },
+    {
+      num: "02",
+      title: "Week 2: Parallel Run",
+      desc: "We run your entire payroll alongside your existing system to validate accuracy, identify variances, and correct legacy configuration issues. HR and Finance teams receive hands-on training to ensure smooth adoption and complete operational confidence before going live.",
+      img: "images/gradient_1_desktop.svg",
+    },
+    {
+      num: "03",
+      title: "Week 3: Go Live",
+      desc: `Your first official payroll is fully executed on our platform with real-time monitoring from our operations team. We validate every calculation, track disbursements, and complete end-to-end reconciliation to ensure a smooth, error-free transition into steady-state operations.`,
+      img: "images/gradient_2_desktop.svg",
+    },
+    {
+      num: "04",
+      title: "Week 4: Optimization",
+      desc: "We fine-tune workflows based on live user feedback, configure custom reports for HR and Finance, and implement advanced automation rules to streamline recurring tasks. This ensures your payroll and compliance operations run at maximum efficiency going forward.",
+      img: "images/gradient_3_desktop.svg",
+    },
+    // {
+    //   num: "05",
+    //   title: "Tooling to embed and shift-left best practices",
+    //   desc: "Windsurf lets you encode and enforce dev best practices across the SDLC, automatically applied by every developer.",
+    //   img: "images/gradient_4_desktop.svg",
+    // },
+    // {
+    //   num: "06",
+    //   title: "Purpose built models",
+    //   desc: "Windsurf trains and deploys best-in-class models for the code domain.",
+    //   img: "images/gradient_5_desktop.svg",
+    // },
+  ],
+};
+
+export const closureSectionPayroll = {
+  title: "The Backbone of Your Workforce Ecosystem.",
+  subTitle: `This isn't software. It's infrastructure you can build on.`,
+};
+
+export const heroDataLabour = {
+  title: "Labour Law Advisory & Regulatory Intelligence",
+  subTitle: `Compliance isn't about answering questions when regulators knock. It's about building operational architecture where violations are structurally impossible. We're the engineering layer between your business and the Indian regulatory state.`,
+};
+
+export const enterpriseDataLabour = {
+  title: "How It Works",
+  gridData: [
+    {
+      title: "Regulatory Surveillance Network",
+      description:
+        "Our system continuously monitors 40+ government sources—central ministries, state gazettes, court rulings, and EPFO/ESIC circulars—using automated scraping, OCR, NLP, and change-detection algorithms. Every regulatory update is classified by impact and reviewed by our legal team before being pushed to clients through real-time SMS, email, and dashboard alerts.",
+    },
+    {
+      title: "Establishment Compliance Automation",
+      description:
+        "From Shops & Establishments to Factories, CLRA, Wages, Bonus, and Gratuity laws, our system manages all registrations, renewals, filings, registers, notices, inspections, and statutory record-keeping across every state and every location. It tracks deadlines 90 days in advance, files amendments instantly, maintains digital + physical registers, and handles inspector coordination end-to-end.",
+    },
+    {
+      title: "Workplace Policies & POSH Compliance",
+      description: `We set up and manage your entire POSH framework—constituting a legally compliant Internal Committee, training employees and managers, and operating a secure complaint-handling system that meets all statutory timelines. Every inquiry is documented with legally admissible evidence formats, and annual returns, policy displays, and compliance certificates are handled automatically. If a case escalates, we provide full documentation, expert support, and coordination with legal counsel.`,
+    },
+    {
+      title: "Industrial Relations & Dispute Management",
+      description: `We manage every aspect of industrial relations—from drafting and certifying Standing Orders to navigating trade union negotiations, economic modeling of demands, and settlement drafting. When downsizing or restructuring is required, our team handles all statutory notices, compensation calculations, and worker communications with legal precision to prevent litigation.`,
+    },
+    {
+      title: "Litigation Support & Representation",
+      description: `From PF/ESIC inspections to Minimum Wage violations and Factory Act notices, we manage the entire legal response cycle—analyzing notices, calculating exposure, drafting evidence-backed replies, and presenting statutory arguments grounded in case law. Our compliance officers handle negotiations directly with inspectors, while empanelled advocates represent you in Labour Courts or High Courts when required.`,
+    },
+   
+  ],
+};
+
+export const testimonialsLabour = {
+  title: "The AI Advantage",
+  cards: [
+    {
+      quote: "Compliance Risk Scoring",
+      role: `Our model evaluates every operational variable—locations, states, headcount, contractor mix, licenses, filings, and historical audits—to generate a 0–100 risk score with precise, actionable flags. It surfaces issues like missing UANs, minimum wage violations, POSH gaps, and renewal deadlines long before inspections occur, along with clear guidance on how to fix each item.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_0.svg')",
+      gradient: "url('/images/gradient_0.svg')",
+      logo: "/images/jpmorgan_chase_logo.svg",
+    },
+    {
+      quote: "Statutory Intelligence Assistant",
+      role: `Our Statutory Intelligence Assistant lets you ask labour-law questions in plain English and returns precise, legally grounded answers instantly. Powered by a constantly updated knowledge base of laws, case judgments, and government circulars, it explains eligibility rules, notice requirements, VDA changes, wage mandates, and more—with formulas, interpretations, and recommended actions.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_1.svg')",
+      gradient: "url('/images/gradient_1.svg')",
+      logo: "/images/mercado_libre_logo.svg",
+    },
+
+    {
+      quote: "Audit Readiness Program",
+      role: `Instead of one-time consultant audits, our system performs daily checks on registers, challans, license expiries, onboarding, and statutory exit timelines. Weekly scorecards highlight open issues, while quarterly simulations mimic real inspector visits to expose gaps before they become violations. Annual certification and a fully organized digital audit file ensure board-level confidence and inspector-level readiness.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_2.svg')",
+      gradient: "url('/images/gradient_2.svg')",
+      logo: "/images/athena_logo.svg",
+    },
+    {
+      quote: "Industry-Specific Expertise",
+      role: `We manage regulatory requirements across IT, manufacturing, e-commerce, logistics, hospitality, and retail—each with its own statutory challenges. From Shops & Establishments compliance for tech teams to Factory Act obligations for plants, gig-worker rules for logistics, and complex weekly-off, holiday wage, and gratuity requirements in retail, our system adapts to industry-specific laws and scaling patterns.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_3.svg')",
+      gradient: "url('/images/gradient_3.svg')",
+      logo: "/images/athena_logo.svg",
+    },
+  ],
+};
+
+export const closureSectionLabour = {
+  title: "Where Advisory Ends and Regulatory Armor Begins.",
+  subTitle: `This isn't advisory. It's regulatory armor.`,
+};

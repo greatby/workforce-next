@@ -37,5 +37,23 @@ export default function sitemap() {
       changeFrequency: "monthly",
       priority: 0.9,
     },
+     {
+      url: `${base}/labour-law`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+      {
+      url: `${base}/payroll-processing`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+       {
+      url: `${base}/tempstaffing`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
   ];
 }

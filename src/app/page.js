@@ -103,9 +103,10 @@ const Page = () => {
       </FadeInWhenVisible> */}
       {/* <Enterprise /> */}
       <EnterpriseChoose data={enterpriseData}/>
-      {/* <Delivers data={deliversData}/> */}
+      
       <CaseStudyTestimonials data={testimonialsLanding}/>
-      <ClosuresCritical />
+      <Delivers data={deliversData}/>
+      {/* <ClosuresCritical /> */}
       <ContactWorkforce data={closureSectionLanding}/>
       {/* <FAQAccordion /> */}
       {/* <Footer /> */}
