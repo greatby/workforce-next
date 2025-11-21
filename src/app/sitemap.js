@@ -25,32 +25,152 @@ export default function sitemap() {
       changeFrequency: "monthly",
       priority: 0.9,
     },
-      {
+    {
       url: `${base}/labour-lawyer-bangalore`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,
     },
-     {
+    {
       url: `${base}/shops-establishment-registration-bangalore`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,
     },
-     {
+    {
       url: `${base}/labour-law`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,
     },
-      {
+    {
       url: `${base}/payroll-processing`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,
     },
-       {
+    {
       url: `${base}/tempstaffing`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-bangalore`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-mumbai`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-delhi`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-chennai`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-hyderabad`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-pune`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-kolkata`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-ahmedabad`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-surat`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-gurgaon`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-noida`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-jaipur`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-lucknow`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-indore`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-coimbatore`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-vadodara`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-visakhapatnam`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-nagpur`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-bhopal`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${base}/payroll-providers-in-kanpur`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,

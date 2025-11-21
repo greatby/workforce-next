@@ -1092,7 +1092,6 @@ export const testimonialsTempstaffing = {
   ],
 };
 
-
 export const closureSectionTempstaffing = {
   title: "Where Staffing Ends and Workforce Infrastructure Begins.",
   subTitle: `This isn't temp staffing. It's workforce infrastructure you can scale on.`,
@@ -1128,7 +1127,6 @@ export const enterpriseDataPayroll = {
       title: "Stage 5: Post-Payroll Compliance",
       description: `Once salaries are processed, the system takes over all monthly, quarterly, and annual obligations: PF ECR uploads, ESIC filings, PT payments, TDS challans, quarterly 24Q returns, and annual Form 16/12BA preparation. Every submission is generated, validated, and filed without manual intervention, ensuring your organization stays audit-ready and fully compliant across all statutory bodies.`,
     },
-   
   ],
 };
 
@@ -1249,7 +1247,6 @@ export const enterpriseDataLabour = {
       title: "Litigation Support & Representation",
       description: `From PF/ESIC inspections to Minimum Wage violations and Factory Act notices, we manage the entire legal response cycle—analyzing notices, calculating exposure, drafting evidence-backed replies, and presenting statutory arguments grounded in case law. Our compliance officers handle negotiations directly with inspectors, while empanelled advocates represent you in Labour Courts or High Courts when required.`,
     },
-   
   ],
 };
 
@@ -1295,4 +1292,191 @@ export const testimonialsLabour = {
 export const closureSectionLabour = {
   title: "Where Advisory Ends and Regulatory Armor Begins.",
   subTitle: `This isn't advisory. It's regulatory armor.`,
+};
+
+export const heroDataPayrollProvidersBangalore = {
+  title:
+    "Payroll Providers in Bangalore: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `The Most Trusted Payroll Partner for Bangalore's Growth-Focused Companies.Stop worrying about Professional Tax deadlines, ESI/PF audits, and complex IT-sector pay structures. We handle 100% of your Karnataka compliance.`,
+};
+
+export const enterpriseDataPayrollProviders = {
+  title: "The Payroll Pain Points We Solve ",
+  gridData: [
+    {
+      title: "Professional Tax (PT) Complexity",
+      description:
+        "We ensure accurate monthly PT computation and timely submission to the respective authorities, avoiding the penalties common to multi-state businesses.",
+    },
+    {
+      title: "High Attrition/F&F Settlements",
+      description:
+        "Our platform automates Full & Final (F&F) settlement calculations, managing complex notice periods, leave encashment, and bonus payouts accurately for Bangalore's high-turnover IT sector.",
+    },
+    {
+      title: "Manual Spreadsheets & Data Errors",
+      description: `We provide a secure, cloud-based HRMS integrated with attendance and leave management, eliminating manual data entry and guaranteeing error-free salary disbursement.`,
+    },
+    {
+      title: "PF/ESI Regulatory Changes",
+      description: `Our team of certified payroll specialists constantly monitors central and state regulatory updates, ensuring your business is always 100% compliant with EPF and ESIC laws in the Bengaluru zone.`,
+    },
+  ],
+};
+
+export const testimonialsPayrollProviders = {
+  title: "Our Comprehensive Payroll Service for Your Office",
+  cards: [
+    {
+      quote: "Payroll Compliance & Management",
+      role: `Our Payroll Compliance & Management system handles end-to-end statutory filings (TDS, PF, ESI, LWF), ensures tax-optimized salaries with accurate investment declaration validation and Form 16 generation, and enables secure direct bank disbursement integrated seamlessly with your accounting system — delivering 100% accuracy, transparency, and on-time payouts every month.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_0.svg')",
+      gradient: "url('/images/gradient_0.svg')",
+      logo: "/images/jpmorgan_chase_logo.svg",
+    },
+    {
+      quote: "Employee Self-Service (ESS)",
+      role: `Employees get 24/7 access to a dedicated web and mobile portal to download payslips, Form 16s, and tax statements instantly. A fully integrated leave and attendance system ensures transparent tracking and automatic synchronization with payroll — reducing queries, improving accuracy, and boosting employee satisfaction.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_1.svg')",
+      gradient: "url('/images/gradient_1.svg')",
+      logo: "/images/mercado_libre_logo.svg",
+    },
+    {
+      quote: "Strategic HR & Reporting",
+      role: `Access advanced MIS dashboards with customized CTC breakdowns, expense analytics, and manpower cost reports tailored for CFOs in Bangalore. Your dedicated account manager — familiar with key business hubs like Whitefield, Electronic City, and Koramangala — provides personalized guidance, ensuring smooth operations and region-specific support.`,
+      bg: "bg-[#D3F2EF]",
+      outline: "url('/images/outline_2.svg')",
+      gradient: "url('/images/gradient_2.svg')",
+      logo: "/images/athena_logo.svg",
+    },
+  ],
+};
+
+export const deliversDataPayrollProviders = {
+  title: "Our Simple 3-Step Onboarding Process",
+  gridData: [
+    {
+      num: "01",
+      title: "Discovery Call",
+      desc: "We assess your current payroll setup, company structure, and compliance needs specific to your Bangalore operations.",
+      img: "images/gradient_0_desktop.svg",
+    },
+    {
+      num: "02",
+      title: "Seamless Transition",
+      desc: "Our migration team integrates with your existing HR/Finance systems and ensures 100% data accuracy during the switch.",
+      img: "images/gradient_1_desktop.svg",
+    },
+    {
+      num: "03",
+      title: "Go Live",
+      desc: `Your employees enjoy accurate, on-time payroll, and you receive monthly compliance guarantees.`,
+      img: "images/gradient_2_desktop.svg",
+    },
+  ],
+};
+
+export const closureSectionPayrollProviders = {
+  title: "For the best payroll outsourcing",
+  subTitle: `We provide accurate payroll processing, statutory compliance services, and HR administration support for businesses operating in areas across the city.`,
+};
+export const heroDataPayrollProvidersMumbai = {
+  title:
+    "Payroll Providers in Mumbai: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Mumbai’s Most Reliable Payroll Partner for Fast-Growing Companies. From PT Maharashtra to ESIC, PF, TDS, and complex multi-state payroll structures — we manage 100% of your compliance with zero penalties.`,
+};
+
+export const heroDataPayrollProvidersDelhi = {
+  title:
+    "Payroll Providers in Delhi: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Delhi NCR’s Most Trusted Payroll Partner for Growth-Oriented Companies. From EPF/ESIC to Professional Tax (where applicable), TDS, and complex multi-state payroll — we manage 100% of your compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersChennai = {
+  title:
+    "Payroll Providers in Chennai: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Chennai’s Most Trusted Payroll Partner for IT, Manufacturing & Startup Ecosystems. From PF/ESI to PT Tamil Nadu, TDS, and multi-state payroll — we ensure 100% compliant and penalty-free payroll operations.`,
+};
+export const heroDataPayrollProvidersHyderabad = {
+  title:
+    "Payroll Providers in Hyderabad: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Hyderabad’s Most Trusted Payroll Partner for IT, Pharma, and Emerging Startups. From PF/ESI to Professional Tax Telangana, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersPune = {
+  title:
+    "Payroll Providers in Pune: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Pune’s Most Reliable Payroll Partner for IT, Manufacturing, and Startup Ecosystems. From PF/ESI to Professional Tax Maharashtra, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersKolkata = {
+  title:
+    "Payroll Providers in Kolkata: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Kolkata’s Most Trusted Payroll Partner for Corporate, SME, and IT Companies. From PF/ESI to Professional Tax West Bengal, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+
+export const heroDataPayrollProvidersAhmedabad = {
+  title:
+    "Payroll Providers in Ahmedabad: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Ahmedabad’s Most Reliable Payroll Partner for Manufacturing, Textile, Pharma, and IT Companies. From PF/ESI to Professional Tax Gujarat, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersSurat = {
+  title:
+    "Payroll Providers in Surat: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Surat’s Most Trusted Payroll Partner for Textile, Diamond, Manufacturing, and IT Companies. From PF/ESI to Professional Tax Gujarat, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersGurgaon = {
+  title:
+    "Payroll Providers in Gurgaon: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Gurugram’s Most Trusted Payroll Partner for IT, Corporate, and Startup Ecosystems. From PF/ESI to Labour Welfare, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersNoida = {
+  title:
+    "Payroll Providers in Noida: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Noida’s Most Trusted Payroll Partner for IT Parks, SEZ Units, MSMEs, and Startup Ecosystems. From PF/ESI to Labour Welfare, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersJaipur = {
+  title:
+    "Payroll Providers in Jaipur: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Jaipur’s Most Reliable Payroll Partner for SMEs, IT Companies, Manufacturing Units, and Startups. From PF/ESI to Labour Welfare, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersLucknow = {
+  title:
+    "Payroll Providers in Lucknow: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Lucknow’s Most Trusted Payroll Partner for SMEs, IT Parks, Enterprises, and Government Vendors. From PF/ESI to Labour Welfare, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersIndore = {
+  title:
+    "Payroll Providers in Indore: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Indore’s Most Trusted Payroll Partner for IT Parks, Manufacturing Units, SMEs, and Startups. From PF/ESI to Professional Tax MP, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+
+export const heroDataPayrollProvidersCoimbatore = {
+  title:
+    "Payroll Providers in Coimbatore: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Coimbatore’s Most Trusted Payroll Partner for Manufacturing, Textile, Engineering, and IT Companies. From PF/ESI to Professional Tax Tamil Nadu, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersVadodara = {
+  title:
+    "Payroll Providers in Vadodara: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Vadodara’s Most Trusted Payroll Partner for Chemical, Manufacturing, Pharma, and IT Companies. From PF/ESI to Professional Tax Gujarat, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersVisakhapatnam = {
+  title:
+    "Payroll Providers in Visakhapatnam: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Visakhapatnam’s Most Trusted Payroll Partner for Port-Based Industries, Manufacturing, Pharma, and IT Companies. From PF/ESI to Professional Tax Andhra Pradesh, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersNagpur = {
+  title:
+    "Payroll Providers in Nagpur: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Nagpur’s Most Trusted Payroll Partner for Manufacturing, Logistics, IT/ITES, and SME Businesses. From PF/ESI to Professional Tax Maharashtra, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersBhopal = {
+  title:
+    "Payroll Providers in Bhopal: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Bhopal’s Most Trusted Payroll Partner for Manufacturing, Public Sector Vendors, IT/ITES, and SME Businesses. From PF/ESI to Professional Tax MP, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
+};
+export const heroDataPayrollProvidersKanpur = {
+  title:
+    "Payroll Providers in Kanpur: Zero Penalties. Guaranteed Compliance.",
+  subTitle: `Kanpur’s Most Trusted Payroll Partner for Leather, Textile, Manufacturing, IT/ITES, and SME Businesses. From PF/ESI to Professional Tax UP, TDS, and multi-state payroll — we ensure 100% compliance with zero penalties.`,
 };
